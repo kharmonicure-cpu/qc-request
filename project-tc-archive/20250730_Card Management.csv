@@ -1,0 +1,334 @@
+project_name,main_category,scope_of_dev,test_case,Fire TV,Roku,Android TV,Apple TV,Web,Apple Mobile,Android Mobile,Smart TV,Vizio TV
+Card Management,Account Management Screen,Check Email Verification Button,"Check Email Verification button 노출 확인
+Check Email Verification button text stringset 확인
+Check Email Verification button 동작 확인
+이메일 인증 미진행 상태 시 Check Email Verification button 동작 확인
+title text 확인
+title text stringset 확인
+Sub text 확인
+Sub text stringset 확인
+OK Button 노출 확인
+OK Button Text 노출 확인
+OK Button 동작 확인
+OK Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,Email Section,"title text 확인
+title text stringset 확인
+input box 확인
+input box 내 User Email 확인
+Save text 확인
+Save text stringset 확인
+Save text UI 확인
+input box 선택 시 UI 확인
+input box 선택 시 동작 확인
+text 선택 시 동작 확인
+Backspace Button 선택 시 동작 확인
+실시간 유효성 검사 동작 확인
+Domain 미입력 시 동작 확인
+Email not verified text 확인
+Email not verified text UI 확인
+Save Text 활성화 동작 확인
+Email not verified text Color 확인
+Email not verified 시 UI 확인
+At 미입력 시 동작 확인
+Invalid Error message text 확인
+Invalid Error message text UI 확인
+Save Text 활성화 동작 확인
+Error message text Color 확인
+Error message 시 UI 확인
+미확인 이메일 주소 입력 시 동작 확인
+Email not verified text 확인
+Email not verified text UI 확인
+Save Text 비활성화 동작 확인
+Email not verified text Color 확인
+Email not verified 시 UI 확인
+Email not verified 시 UI 확인
+이메일 변경 후 확인
+이메일 변경 진행
+이메일 변경 간격 확인
+이메일 변경 간격 시간 확인
+이메일 변경 간격 초과 확인
+이메일 변경 간격 초과 후 ㅎ\
+이메일 변경 간격 확인
+이메일 변경 간격 시간 확인
+이메일 변경 간격 확인
+이메일 변경 간격 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,Email Verification Required POP UP,"Email Verification Required POP UP 노출 확인
+title text 확인
+title text stringset 확인
+Sub text 확인
+Sub text stringset 확인
+Go Back Button Text 확인
+Go Back Button 동작 확인
+Go Back Button 기능 확인
+Stay here Button Text 확인
+Stay here Button 동작 확인
+Stay here Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,General Rules,"left chevron 확인
+left chevron 기능 확인
+title text 확인
+title text stringset 확인
+Sub text 확인
+Sub text stringset 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,Resend Button,"Resend button 노출 확인
+Resend button text stringset 확인
+Resend button 동작 확인
+Verification email 인증 확인
+Verification email 유효 시간 확인
+Verification email 확인 페이지 노출
+Verification email 유효 시간 확인
+Verification email 최근 이메일이 아닌 경우
+확인 이메일 재발송 간격 확인
+확인 이메일 재발송 최대 횟수 확인
+확인 이메일 재발송 불가 확인
+확인 이메일 재발송 불가 안내 문구 확인
+연속적으로 Resend 발송 시 POP UP 노출 확인
+title text 확인
+title text stringset 확인
+Sub text 확인
+Sub text stringset 확인
+OK Button 노출 확인
+OK Button Text 노출 확인
+OK Button 동작 확인
+OK Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,Send Verification Mail,"Send Verification Mail Button 확인
+Send Verification Mail stringset 확인
+Send Verification Mail Button 동작 확인
+인증 이메일 발송 후 Send Verification Mail Button 노출 여부 확인",False,False,False,False,True,False,False,False,False
+Card Management,Account Management Screen,email verification Message,"확인 가능 이메일 주소 입력 시 동작 확인
+이메일 미인증 시 text 확인
+Waiting for email verification message text UI 확인
+이메일 인증 시 text 확인",False,False,False,False,True,False,False,False,False
+Card Management,Checkout Page,Billing Information Area,"title text 확인
+title text Stringset 확인
+Credit Card icon 확인
+Credit Card icon 기능 확인
+Boleto icon 확인
+Boleto image UI 확인
+Boleto image 선택 시 UI 확인
+Boleto icon 기능 확인
+User Card Socket 확인
+Socket 선택 시 UI 확인
+Add New Card Button 확인
+Add New Card Button 기능 확인
+Add New Card Button 노출 여부 확인
+User Credit Card 확인
+Card Type text 확인
+Visa Card Type text 확인
+Master Card Type text 확인
+User Card Number text 확인
+User Card Number text stringset 확인
+User Card Number text Encoding stringset확인
+title text 확인
+title text Stringset 확인
+title text UI 확인
+User Name 확인
+User Name text 노출 순서 확인
+Valid Thru 확인
+Valid Thru text Stringset 확인
+ZIP Code text 확인
+User Adress 확인
+User Name text 노출 순서 확인
+Update Billing Info Button 확인
+Update Billing Info Button stringset 확인
+Update Billing Info Button 기능 확인
+Information text 확인
+Information text Stringset 확인",False,False,False,False,True,False,False,False,False
+Card Management,Checkout Page,Payment Summary Area,"Check box 확인
+Default Setting 확인
+Check box 선택 시 UI 확인
+Agreement text 확인
+Agreement text Stringset 확인
+해상도 768 미만 시 Agreement text Stringset 확인
+Bottom Sheet 확인
+화면 Scroll 시 동작 확인
+해상도 320 미만 시 Bottom Sheet 확인
+Check box 확인
+Agreement text 확인
+More Button 확인
+More Button 선택 시 동작 확인
+More Button 선택 시 UI 확인
+Arrow Icon 선택 시 동작 확인
+화면 Scroll 시 동작 확인
+Check box 확인
+Agreement text 확인
+Checkout Button 확인
+Checkout Button stringset 확인
+Target Subscription item Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Pound Currency stringset 확인
+Subscription Price 확인
+Target Subscription Price 확인
+Basic Monthly Price text 확인
+Basic Annual Price text 확인
+Premium Monthly Price text 확인
+Premium Annual Price text 확인
+Brazil 국적일 시 Basic Monthly Price text 확인
+Brazil 국적일 시 Basic Annual Price text 확인
+Brazil 국적일 시 Premium Monthly Price text 확인
+Brazil 국적일 시 Premium Annual Price text 확인
+Europe 국적일 시 Basic Monthly Price text 확인
+Europe 국적일 시 Basic Annual Price text 확인
+Europe 국적일 시 Premium Monthly Price text 확인
+Europe 국적일 시 Premium Annual Price text 확인
+Oceania 국적일 시 Basic Monthly Price text 확인
+Oceania 국적일 시 Basic Annual Price text 확인
+Oceania 국적일 시 Premium Monthly Price text 확인
+Oceania 국적일 시 Premium Annual Price text 확인
+Subscription Currency Code 확인
+Target Subscription Currency Code 확인
+USD Currency Code text 확인
+BRL Currency Code text 확인
+GBP Currency Code text 확인
+NZD Currency Code text 확인
+AUD Currency Code text 확인
+Checkout Button UI 확인
+Dimmed Checkout Button 기능 확인
+Agreement Checkbox 체크 시 Checkout Button UI 확인
+Checkout Button 기능 확인
+Checkout Button 선택 시 동작 확인",False,False,False,False,True,False,False,False,False
+Card Management,My Account Page,Top Area,"title text 확인
+title text stringset 확인
+Division Line 확인
+Division Line UI 확인
+Default Setting 확인
+Tab Button UI 확인
+Selected Tab Button 확인
+Division Line 확인
+Profile Tab Button 확인
+Profile Tab Button stringset 확인
+Profile Tab Button 기능 확인
+Payment Tab Button 확인
+Payment Tab Button stringset 확인
+Payment Tab Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Birthday Section,"title text 확인
+title text stringset 확인
+Drop Down box 확인
+Downward Arrow icon 확인
+Drop Down box 선택 시 동작 확인
+Drop Down box 기능 확인
+Date Drop Down box 확인
+Default Setting 확인
+Date Drop Down box sringset 확인
+Month Drop Down box 확인
+Default Setting 확인
+Month Drop Down box sringset 확인
+Year Drop Down box 확인
+Default Setting 확인
+Year Drop Down box sringset 확인
+Scroll indicator 확인
+Scroll Up 가능 여부 확인
+Scroll Down 동작 확인
+Scroll Up 동작 확인
+Scroll Down 가능 여부 확인
+Value 확인
+Value Sorting Order 확인
+Year Drop Down box 선택 시 Value Sorting Order 확인
+Value 선택 시 동작 확인
+Value 기능 확인
+외부 영역 선택 시 동작 확인
+Drop Down POP UP 사라질 시 UI 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Email Section,"title text 확인
+title text stringset 확인
+User Email 확인
+해상도 768 미만 적용 시 배치 확인
+Edit Button 확인
+Edit Button stringset 확인
+Edit Button UI 확인
+Edit Button 기능 확인
+Email Verification Inform text 노출 여부 확인
+Email Verification Inform text 확인
+Email Verification Inform text stringset 확인
+Email Verification Inform text UI 확인
+Email Verification Button 노출 여부 확인
+Email Verification Button 확인
+Email Verification Button stringset 확인
+Email Verification Button UI 확인
+Email Verification Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Functional Section,"Save Changes Button 확인
+Default Setting 확인
+Save Changes Button stringset 확인
+Dimmed Save Changes Button 기능 확인
+User Data 변경 시 Save Changes Button확인
+User Data 원상복구 시 Save Changes Button확인
+Save Changes Button 선택 시 동작 확인
+Save Changes Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Gender Section,"title text 확인
+title text stringset 확인
+Radio Button 확인
+Default Setting 확인
+Radio Button 선택 시 동작 확인
+Radio Button 기능 확인
+Male Radio Button 확인
+Male Radio Button stringset 확인
+Female Radio Button 확인
+Female Radio Button stringset 확인
+Other Radio Button 확인
+Other Radio Button stringset 확인
+Prefer not to say Radio Button 확인
+Prefer not to say Radio Button stringset 확인
+해상도 768 미만 적용 시 배치 확인
+해상도 768 미만 적용 시 배치 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,General Rules,"title text 확인
+title text stringset 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Name Section,"title text 확인
+title text stringset 확인
+Input box 확인
+해상도 768 미만 적용 시 배치 확인
+User Name 확인
+Input box 선택 시 UI 확인
+text 선택 시 동작 확인
+text 삭제 확인
+Absence error message text 확인
+Absence error message text stringset 확인
+Absence error message text UI 확인
+Invalid error message text 노출 여부 확인
+Invalid error message text 경계값 확인
+Invalid error message text 확인
+Invalid error message text stringset 확인
+Invalid error message text UI 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Password Section,"title text 확인
+title text stringset 확인
+User Password 확인
+User Password Encoding 확인
+User Password Encoding stringset 확인
+해상도 768 미만 적용 시 배치 확인
+title text 확인
+title text stringset 확인
+title text underline 확인
+title text UI 확인
+Change Button 기능 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+User Password Change Date 확인
+User Password Change Date stringset 확인
+User Password Change Date UI 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,Validation,"Absence error message text 확인
+Absence error message text stringset 확인
+Absence error message text UI 확인
+Invalid error message text 노출 여부 확인
+Invalid error message text 경계값 확인
+Invalid error message text 확인
+Invalid error message text stringset 확인
+Invalid error message text UI 확인",False,False,False,False,True,False,False,False,False
+Card Management,Profile Screen,ZIP Code Section,"ZIP Code Section 노출 여부 확인
+title text 확인
+title text stringset 확인
+User ZIP Code 확인
+User ZIP Code 없을 시 UI 확인
+해상도 768 미만 적용 시 배치 확인
+Edit Button 확인
+Edit Button stringset 확인
+Edit Button UI 확인
+Edit Button 기능 확인
+Enter ZIP Code Button 노출 여부 확인
+Enter ZIP Code Button 확인
+Enter ZIP Code Button stringset 확인
+Enter ZIP Code Button UI 확인
+Enter ZIP Code Button 기능 확인",False,False,False,False,True,False,False,False,False
+Card Management,Subscribe Page,Information Section,"Tax Information text 확인
+Tax Information text stringset 확인
+Tax text UI 확인",False,False,False,False,True,False,False,False,False
+Card Management,Subscribe Page,Payment Summary Area,Currency 확인,False,False,False,False,True,False,False,False,False

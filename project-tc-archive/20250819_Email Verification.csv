@@ -1,0 +1,648 @@
+project_name,main_category,scope_of_dev,test_case,Fire TV,Roku,Android TV,Apple TV,Web,Apple Mobile,Android Mobile,Smart TV,Vizio TV
+Email Verification,Daily Limit Reached POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Daily Limit Reached POP UP,Help Center button,"Help Center button 확인
+Help Center button stringset 확인
+Help Center button 기능 확인
+Help Center button 확인
+Help Center button stringset 확인
+Help Center button 기능 확인",False,False,False,False,True,True,True,False,False
+Email Verification,Daily Limit Reached POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Email Already Verified POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Email Already Verified POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 선택 시 동작 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 선택 시 동작 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 선택 시 동작 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 선택 시 동작 확인
+OK button 기능 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Email Verification Page,Functional Area,"Resend Button 확인
+Resend Button stringset 확인
+Resend Button focus 시 UI 확인
+Resend Button 기능 확인
+Check Email Verification Button 확인
+Check Email Verification Button stringset 확인
+Check Email Verification Button focus 시 UI 확인
+Check Email Verification Button 선택 시 동작 확인
+Check Email Verification Button 기능 확인
+Sign Out button 확인
+Sign Out button stringset 확인
+Sign Out button focus 시 UI 확인
+Sign Out button 기능 확인
+Back button 확인
+Back button stringset 확인
+Back button focus 시 UI 확인
+미결제 시 Back button 기능 확인
+결제 시 Back button 기능 확인
+Remote control back button 선택 시 동작 확인
+Resend Button 확인
+Resend Button stringset 확인
+Resend Button focus 시 UI 확인
+Resend Button 기능 확인
+Check Email Verification Button 확인
+Check Email Verification Button stringset 확인
+Check Email Verification Button focus 시 UI 확인
+Check Email Verification Button 기능 확인
+Sign Out button 확인
+Sign Out button stringset 확인
+Sign Out button focus 시 UI 확인
+Sign Out button 선택 시 동작 확인
+Sign Out button 기능 확인
+Back button 확인
+Back button stringset 확인
+Back button focus 시 UI 확인
+미결제 시 Back button 기능 확인
+결제 시 Back button 기능 확인
+Remote control back button 선택 시 동작 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Email Verification Page,General Rule,"Resend verification mail Button 선택 시 동작 확인
+verification 1분 미만 간격인 경우 Resend verification mail Button 선택 시 동작 확인
+validity time 초과한 경우 Resend verification mail Button 선택 시 동작 확인
+Already verified 경우 Resend verification mail Button 선택 시 동작 확인
+Server Error 발생한 경우 Resend verification mail Button 선택 시 동작 확인
+verification 5번 초과 선택한 경우 Resend verification mail Button 선택 시 동작 확인
+Resend verification mail Button 선택 시 동작 확인
+verification 1분 미만 간격인 경우 Resend verification mail Button 선택 시 동작 확인
+validity time 초과한 경우 Resend verification mail Button 선택 시 동작 확인
+Already verified 경우 Resend verification mail Button 선택 시 동작 확인
+Server Error 발생한 경우 Resend verification mail Button 선택 시 동작 확인
+verification 5번 초과 선택한 경우 Resend verification mail Button 선택 시 동작 확인
+Resend verification mail Button 선택 시 동작 확인
+verification 1분 미만 간격인 경우 Resend verification mail Button 선택 시 동작 확인
+validity time 초과한 경우 Resend verification mail Button 선택 시 동작 확인
+Already verified 경우 Resend verification mail Button 선택 시 동작 확인
+Server Error 발생한 경우 Resend verification mail Button 선택 시 동작 확인
+verification 5번 초과 선택한 경우 Resend verification mail Button 선택 시 동작 확인
+Resend verification mail Button 선택 시 동작 확인
+verification 1분 미만 간격인 경우 Resend verification mail Button 선택 시 동작 확인
+validity time 초과한 경우 Resend verification mail Button 선택 시 동작 확인
+Already verified 경우 Resend verification mail Button 선택 시 동작 확인
+Server Error 발생한 경우 Resend verification mail Button 선택 시 동작 확인
+verification 5번 초과 선택한 경우 Resend verification mail Button 선택 시 동작 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Email Verification Page,General Rules,"Default Setting 확인
+KOCOWA logo image 확인
+Default Setting 확인
+KOCOWA logo image 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Email Verification Page,Guidance Area,"1st Guidance text 확인
+1st Guidance text stringset 확인
+2nd Guidance text 확인
+2nd Guidance text stringset 확인
+Resend verification mail Button 확인
+Resend verification mail stringset 확인
+Resend verification mail Button UI 확인
+Resend verification mail Button 기능 확인
+3rd Guidance text 확인
+3rd Guidance text stringset 확인
+3rd Guidance text UI 확인
+1st Guidance text 확인
+1st Guidance text stringset 확인
+2nd Guidance text 확인
+2nd Guidance text stringset 확인
+Resend verification mail Button 확인
+Resend verification mail Button 확인
+Resend verification mail Button UI 확인
+Resend verification mail Button 기능 확인
+3rd Guidance text 확인
+3rd Guidance text stringset 확인
+3rd Guidance text UI 확인",False,False,False,False,True,True,True,False,False
+Email Verification,Email Verification Page,Header Area,"KOCOWA logo image 확인
+KOCOWA logo image 기능 확인
+Edit Profile button 확인
+Edit Profile button stringset 확인
+Edit Profile button 기능 확인
+해상도 320 이하일 시 Edit Profile button 출력 여부 확인
+Sign Out button 확인
+Sign Out button stringset 확인
+Sign Out button 기능 확인
+Back icon 확인
+Back icon 기능 확인
+KOCOWA logo 확인",False,False,False,False,True,True,True,False,False
+Email Verification,Email Verification Page,Inform Area,"Framework 확인
+해상도 768 이하일 시 Framework UI 확인
+sub text 확인
+sub text stringset 확인
+User Email 확인
+Framework 확인
+sub text 확인
+sub text stringset 확인
+줄바꿈 확인
+User Email 확인
+User Email UI 확인",False,False,False,False,True,True,True,False,False
+Email Verification,Email Verification Page,Inform text,"Inform text 확인
+Inform text stringset 확인
+Inform text 확인
+Inform text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Email Verification Page,Top Area,"Rectangle 확인
+해상도 768 이하일 시 Grey Rectangle 출력 여부 확인
+Message icon 확인
+title text 확인
+title text stringset 확인
+Email image 확인
+title text 확인
+title text stringset 확인",False,False,False,False,True,True,True,False,False
+Email Verification,Email Verification Page,Verify Email,"Email Verify 완료 시 동작 확인
+Last Verification Email LINK 동작 확인
+20분 경과 시 동작 확인
+Expired LINK 선택 시 Count 여부 확인
+Last Verification Email LINK 동작 확인
+20분 경과 시 동작 확인
+Expired LINK 선택 시 Count 여부 확인
+LINK 기능 확인
+Email Verify 완료 시 동작 확인
+Last Verification Email LINK 동작 확인
+20분 경과 시 동작 확인
+Expired LINK 선택 시 Count 여부 확인
+Email Verify 완료 시 동작 확인
+Last Verification Email LINK 동작 확인
+20분 경과 시 동작 확인
+Expired LINK 선택 시 Count 여부 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Email Verification Page,sub text,"sub text 확인
+sub text stringset 확인
+sub text 줄바꿈 확인
+User Email 확인
+User Email UI 확인
+sub text 확인
+sub text stringset 확인
+sub text 줄바꿈 확인
+User Email 확인
+User Email UI 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Email Verification Page,title text,"title text 확인
+title text stringset 확인
+title text 확인
+title text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Email Verification Required POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,False,True,True,False,False
+Email Verification,Email Verification Required POP UP,Sign Out Button,"Sign Out Button 확인
+Sign Out Button stringset 확인
+Sign Out Button 선택 시 동작 확인
+Sign Out Button 기능 확인",False,False,False,False,False,True,True,False,False
+Email Verification,Email Verification Required POP UP,Stay Here Button,"Start Here Button 확인
+Start Here Button stringset 확인
+Start Here Button UI 확인
+Start Here Button 기능 확인",False,False,False,False,False,True,True,False,False
+Email Verification,Failed to Send Email POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Failed to Send Email POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인",True,True,True,True,True,True,True,True,True
+Email Verification,My Account,Verification Message,"Verification Message 출력 여부 확인
+Verification Message 출력 확인
+Verification Message stringset 확인
+Verification Message UI 확인
+Verification Message 출력 여부 확인
+Verification Message 출력 확인
+Verification Message stringset 확인
+Verification Message UI 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Please Try Again Later POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Please Try Again Later POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인",True,True,True,True,True,True,True,True,True
+Email Verification,QR Sign In,Countdown,"Countdown 확인
+Countdown stringset 확인
+Countdown 동작 확인
+Countdown 만료 시 UI 확인
+Countdown 만료 시 QR Code UI 확인
+Countdown 만료 시 Refresh icon 확인
+QR Code Expiration Message text 확인
+QR Code Expiration Message text stringset 확인
+QR Code Expiration Message text UI 확인",True,True,True,True,False,False,False,False,False
+Email Verification,QR Sign In,Facebook,"KOCOWA+ logo 확인
+title text 확인
+title text 확인
+sub text 확인
+QR Code image 확인
+QR Code image 인식 시 동작 확인
+Direction Link text 확인
+title text 확인
+sub text 확인
+PIN Code 확인
+Countdown 확인
+Countdown Setting 확인
+Countdown UI 확인
+Countdown 동작 확인
+Countdown 만료 시 PIN Code UI 확인
+Countdown 만료 시 countdown 확인
+Countdown 만료 시 PIN Expiration text 확인
+Countdown 만료 시 PIN Expiration text UI 확인
+Cancel Button 확인
+Cancel Button focus 시 UI 확인
+Cancel Button 기능 확인
+리모컨 취소 Button 입력 시 동작 확인
+Code text 입력 시 동작 확인
+Social Sign In 시 동작 확인
+Social Sign In 기능 확인
+Social Sign Up 시 동작 확인
+Social Sign Up 기능 확인",False,False,False,False,False,False,False,True,True
+Email Verification,QR Sign In,General Rules,"Framework 확인
+Framework 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,Google,"KOCOWA+ logo 확인
+title text 확인
+title text 확인
+sub text 확인
+QR Code image 확인
+QR Code image 인식 시 동작 확인
+Direction Link text 확인
+title text 확인
+sub text 확인
+PIN Code 확인
+Countdown 확인
+Countdown Setting 확인
+Countdown UI 확인
+Countdown 동작 확인
+Countdown 만료 시 PIN Code UI 확인
+Countdown 만료 시 countdown 확인
+Countdown 만료 시 PIN Expiration text 확인
+Countdown 만료 시 PIN Expiration text UI 확인
+Cancel Button 확인
+Cancel Button focus 시 UI 확인
+Cancel Button 기능 확인
+리모컨 취소 Button 입력 시 동작 확인
+Code text 입력 시 동작 확인
+Social Sign In 시 동작 확인
+Social Sign In 기능 확인
+Social Sign Up 시 동작 확인
+Social Sign Up 기능 확인",False,False,False,False,False,False,False,True,True
+Email Verification,QR Sign In,QR Code,"QR Code image 확인
+QR Code 인식 시 동작 확인
+Sign In 시 동작 확인
+Mobile App 설치되어 있는 경우 QR Code 인식 시 동작 확인
+Mobile App 미로그인 상태에서 QR Code 인식 시 동작 확인
+QR Code image 확인
+QR Code 인식 시 동작 확인
+Sign In 시 동작 확인
+Mobile App 설치되어 있는 경우 QR Code 인식 시 동작 확인
+Mobile App 미로그인 상태에서 QR Code 인식 시 동작 확인
+
+Mobile App 로그인 상태에서 QR Code 인식 시 동작 확인
+Countdown 기능 확인
+Countdown 동작 확인
+Countdown 만료 시 UI 확인
+Countdown 만료 시 QR Code UI 확인
+Countdown 만료 시 Refresh icon 확인
+QR Code Expiration Message text 확인
+QR Code Expiration Message text stringset 확인
+QR Code Expiration Message text UI 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,Refresh Button,"Refresh Button 확인
+Refresh Button stringset 확인
+Refresh Button UI 확인
+Dimmed Refresh Button 선택 가능 여부 확인
+Refresh Button focus 시 UI 확인
+Refresh Button 선택 시 동작 확인
+Refresh Button 기능 확인
+Refresh Button 확인
+Refresh Button stringset 확인
+Refresh Button UI 확인
+Dimmed Refresh Button 선택 가능 여부 확인
+Refresh Button focus 시 UI 확인
+Refresh Button 선택 시 동작 확인
+Refresh Button 기능 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,Request Expired POP UP,"Request Expired POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button stringset 확인
+OK Button UI 확인
+OK Button 선택 시 동작 확인
+OK Button 선택 시 기능 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button stringset 확인
+OK Button UI 확인
+OK Button 선택 시 동작 확인
+OK Button 선택 시 기능 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,Sign in Request POP UP,"Sign in Request POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Platform text 확인
+Platform text UI 확인
+No Button 확인
+No Button stringset 확인
+No Button 기능 확인
+Yes Button 확인
+Yes Button stringset 확인
+Yes Button UI 확인
+Yes Button 선택 시 동작 확인
+Yes Button 기능 확인
+Sign in Request POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Platform text 확인
+Platform text UI 확인
+Go Back Button 확인
+Go Back Button stringset 확인
+Go Back Button 기능 확인
+Stay Here Button 확인
+Stay Here Button stringset 확인
+Stay Here Button UI 확인
+Stay Here Button 선택 시 동작 확인
+Stay Here Button 기능 확인
+QR Code Expired 시 Request Expired POP UP 노출 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,Signed In POP UP,"Signed In POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button stringset 확인
+OK Button 기능 확인",True,True,True,True,False,False,False,False,False
+Email Verification,QR Sign In,sub text,"sub text 확인
+sub text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign In,title text,"title text 확인
+title text stringset 확인
+title text 확인
+title text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign Up,General Rules,"Framework 확인
+Framework 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign Up,QR Code,"QR Code image 확인
+QR Code 인식 시 동작 확인
+QR Code image 확인
+QR Code 인식 시 동작 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign Up,sub text,"sub text 확인
+sub text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,QR Sign Up,title text,"title text 확인
+title text stringset 확인
+title text 확인
+title text stringset 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Verification Email Sent POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Verification Email Sent POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+Email inbox 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+Email inbox 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+Email inbox 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Verification Link Invalid POP UP,General Rules,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Verification Link Invalid POP UP,OK button,"OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인
+OK button 확인
+OK button stringset 확인
+OK button UI 확인
+OK button 기능 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Verification Link Invalid POP UP,Resend Email button,"Resend Email button 확인
+Resend Email button stringset 확인
+Resend Email button 기능 확인
+Verification Email Sent POP UP 출력여부 확인
+Resend Email button 확인
+Resend Email button stringset 확인
+Resend Email button 기능 확인
+Verification Email Sent POP UP 출력여부 확인
+Resend Email button 확인
+Resend Email button stringset 확인
+Resend Email button 기능 확인
+Verification Email Sent POP UP 출력여부 확인
+Resend Email button 확인
+Resend Email button stringset 확인
+Resend Email button 기능 확인
+Verification Email Sent POP UP 출력여부 확인",True,True,True,True,True,True,True,True,True
+Email Verification,Verify Your Email Now POP UP,Exception,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Send Email button 확인
+Send Email button stringset 확인
+Send Email button focus 시 UI 확인
+Send Email button 기능 확인
+Cancel button 확인
+Cancel button stringset 확인
+Cancel button focus 시 UI 확인
+Cancel button 기능 확인
+Remote control back button 선택 시 동작 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Send Email button 확인
+Send Email button stringset 확인
+Send Email button focus 시 UI 확인
+Send Email button 기능 확인
+Cancel button 확인
+Cancel button stringset 확인
+Cancel button focus 시 UI 확인
+Cancel button 기능 확인
+Remote control back button 선택 시 동작 확인",True,True,True,True,False,False,False,True,True
+Email Verification,Verify Your Email Now POP UP,Exceptional,"sub text 확인
+sub text stringset 확인
+Cancel Button 확인
+Cancel Button stringset 확인
+Cancel Button 기능 확인",False,False,False,False,False,True,True,False,False
+Email Verification,Verify Your Email Now POP UP,General Rules,"Verify Your Email Now POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Verify Your Email Now POP UP 출력 여부 확인
+Verify Your Email Now POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Send Email button 확인
+Send Email button stringset 확인
+Send Email button focus 시 UI 확인
+Send Email button 기능 확인
+Sign Out button 확인
+Sign Out button stringset 확인
+Sign Out button focus 시 UI 확인
+Sign Out button 기능 확인
+리모컨 취소 button 입력 시 동작 확인
+Verify Your Email Now POP UP 출력 여부 확인
+Verify Your Email Now POP UP 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Send Email button 확인
+Send Email button stringset 확인
+Send Email button focus 시 UI 확인
+Send Email button 기능 확인
+Sign Out button 확인
+Sign Out button stringset 확인
+Sign Out button focus 시 UI 확인
+Sign Out button 기능 확인
+리모컨 취소 button 입력 시 동작 확인",True,True,True,True,False,True,True,True,True
+Email Verification,Verify Your Email Now POP UP,Send Email Button,"Send Email Button 확인
+Send Email Button stringset 확인
+Send Email Button UI 확인
+Send Email Button 기능 확인",False,False,False,False,False,True,True,False,False
+Email Verification,Verify Your Email Now POP UP,Sign Out Button,"Sign Out Button 확인
+Sign Out Button stringset 확인
+Sign Out Button 선택 시 동작 확인
+Sign Out Button 기능 확인",False,False,False,False,False,True,True,False,False

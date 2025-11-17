@@ -1,0 +1,964 @@
+project_name,main_category,scope_of_dev,test_case,Fire TV,Roku,Android TV,Apple TV,Web,Apple Mobile,Android Mobile,Smart TV,Vizio TV
+Get Started,App Download Area,App Store Button,"App Store Button 확인
+App Store image 확인
+App Store Button 기능 확인
+App Store QR Code 확인
+App Store QR Code 출력 여부 확인
+App Store QR Code 인식 시 동작 확인",False,False,False,False,True,False,False,False,False
+Get Started,App Download Area,General Rules,"App Download Area 확인
+Background image 확인",False,False,False,False,True,False,False,False,False
+Get Started,App Download Area,Google Play Button,"Google play Button 확인
+Google play image 확인
+Google play Button 기능 확인
+Google Play QR Code 확인
+Google Play QR Code 출력 여부 확인
+Google Play QR Code 인식 시 동작 확인",False,False,False,False,True,False,False,False,False
+Get Started,App Download Area,sub text,"sub text 확인
+sub text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,App Download Area,title text,"title text 확인
+title text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Available Platform Guide Area,General Rules,"Available Platform Guide Area 확인
+해상도 320 이하 적용 시 Available Platform Guide Area 출력 여부 확인",False,False,False,False,True,False,False,False,False
+Get Started,Available Platform Guide Area,logo image,"Samsung logo image 확인
+LG logo image 확인
+AppleTV logo image 확인
+GoogleTV logo image 확인
+ROKU logo image 확인
+VIZIO logo image 확인
+App Store logo image 확인
+Google Play logo image 확인
+Google Cast logo image 확인
+FireTV logo image 확인",False,False,False,False,True,False,False,False,False
+Get Started,Available Platform Guide Area,title text,"title text 확인
+title text stringset 확인
+title text UI 확인",False,False,False,False,True,False,False,False,False
+Get Started,Bottom Invitation Area,General Rules,"Bottom Invitation Area 확인
+Bottom Invitation Area 확인
+Background image 확인",False,False,False,False,True,True,True,False,False
+Get Started,Bottom Invitation Area,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Sign Up Button 기능 확인
+Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Sign Up Button 기능 확인",False,False,False,False,True,True,True,False,False
+Get Started,Bottom Invitation Area,sub text,"sub text 확인
+sub text stringset 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Bottom Invitation Area,title text,"title text 확인
+title text stringset 확인
+해상도 320 이하 적용 시 title text 문단 배치 확인
+Drama text UI 확인
+Variety text 확인
+Variety text UI 확인
+Variety text Opacity 확인
+K-POP text 확인
+K-POP text UI 확인
+K-POP text Opacity 확인
+Webcomics text 확인
+Webcomics text UI 확인
+Webcomics text Opacity 확인
+title text 확인
+title text stringset 확인
+Drama text 확인
+Drama text UI 확인
+Drama text stringset 확인
+Variety text 확인
+Variety text UI 확인
+Variety text Opacity 확인
+Variety text stringset 확인
+K-POP text 확인
+K-POP text UI 확인
+K-POP text Opacity 확인
+K-POP text stringset 확인
+Webcomics text 확인
+Webcomics text UI 확인
+Webcomics text Opacity 확인
+Webcomics text stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,Back Button,"Back Button 확인
+Back Button UI 확인
+Back Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Close Button,"Close Button 확인
+Close Button 기능 확인
+Close Button 확인
+Close Button UI 확인
+Close Button 기능 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,Content Meta Data,"Rating icon 확인
+TV-Y Rating icon stringset 확인
+TV-Y7 Rating icon stringset 확인
+TV-Y7-FV Rating icon stringset 확인
+TV-G Rating icon stringset 확인
+G Rating icon stringset 확인
+TV-PG Rating icon stringset 확인
+PG Rating icon stringset 확인
+PG-13 Rating icon stringset 확인
+TV-14 Rating icon stringset 확인
+R Rating icon stringset 확인
+TV-MA Rating icon stringset 확인
+NC-17 Rating icon stringset 확인
+Release Date 확인
+Release Date stringset 확인
+Content Release Date 확인
+Genre 확인
+Content Genre 확인
+다수일 경우 Content Genre 출력 여부 확인
+Episode Counter 확인
+Episode Counter 출력 여부 확인
+Episode Counter stringset 확인
+Episode Number 확인
+Subtitle icon 확인
+Content Subtitle 확인
+Delimeter 확인
+User Language Interface 적용 확인
+English Subtitle 확인
+English Subtitle stringset 확인
+Portuguese Subtitle 확인
+Portuguese Subtitle stringset 확인
+Spanish Subtitle 확인
+Spanish Subtitle stringset 확인
+Chinese Subtitle 확인
+Chinese Subtitle stringset 확인
+Vietnamese Subtitle 확인
+Vietnamese Subtitle stringset 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Description Area,"Division Line 확인
+Comma 확인
+Comma 출력 여부 확인
+Rating icon 확인
+Content Rating icon 확인
+TV-Y Rating icon stringset 확인
+TV-Y7 Rating icon stringset 확인
+TV-Y7-FV Rating icon stringset 확인
+TV-G Rating icon stringset 확인
+G Rating icon stringset 확인
+TV-PG Rating icon stringset 확인
+PG Rating icon stringset 확인
+PG-13 Rating icon stringset 확인
+TV-14 Rating icon stringset 확인
+R Rating icon stringset 확인
+TV-MA Rating icon stringset 확인
+NC-17 Rating icon stringset 확인
+Release Date 확인
+Release Date stringset 확인
+Content Release Date 확인
+Genre 확인
+Content Genre 확인
+다수일 경우 Content Genre 확인
+다수일 경우 Content Genre 출력 여부 확인
+Episode Counter 확인
+Episode Counter stringset 확인
+Episode Number 확인
+Subtitle icon 확인
+Content Subtitle 확인
+Delimeter 확인
+User Language Interface 적용 확인
+English Subtitle 확인
+English Subtitle stringset 확인
+Portuguese Subtitle 확인
+Portuguese Subtitle stringset 확인
+Spanish Subtitle 확인
+Spanish Subtitle stringset 확인
+Chinese Subtitle 확인
+Chinese Subtitle stringset 확인
+Vietnamese Subtitle 확인
+Vietnamese Subtitle stringset 확인
+More Button 확인
+More Button 출력 여부 확인
+More Button stringset 확인
+More Button UI 확인
+More Button 기능 확인
+Description text 확인
+장문일 경우 Description text 확인
+해상도 320 이하 적용 시 Max Line 확인
+장문일 경우 Description text UI 확인
+Description text 확인
+Description text Maximum 확인
+Description text Maximum 적용 여부 확인
+Description text Maximum 확인
+Description text Maximum 확인
+장문일 경우 Description text UI 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,General Rules,"Background image 확인
+Background image 출력 여부 확인
+외부 영역 선택 시 동작 확인
+Background image 확인
+Background image 출력 여부 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,Menu Button,"Menu Button 확인
+Menu Button UI 확인
+Menu Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Poster Image,"Poster Image 확인
+Subtitle icon 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Sign In Button,"Sign In Button 확인
+Sign In Button stringset 확인
+Sign In Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button Hover 시 UI 확인
+Sign Up Button 기능 확인
+Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Sign Up Button 기능 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,Synopsis Area,"Synopsis text 확인
+장문일 경우 Synopsis text 확인
+해상도 768 미만 적용 시 Max Line 확인
+장문일 경우 Synopsis text UI 확인
+Description text 편성된 경우 Synopsis text 출력 여부 확인
+Synopsis text 확인
+Synopsis text Maximum 확인
+Synopsis text Maximum 적용 여부 확인
+Synopsis text Maximum 확인
+Synopsis text Maximum 확인
+장문일 경우 Synopsis text UI 확인
+Description text 편성된 경우 Synopsis text 출력 여부 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Detail POP UP,Title Area,"Series Title image 확인
+Series Title image 출력 여부 확인
+Series Name text 확인
+Content Series Name text 확인
+Series Name text 출력 여부 확인
+Series Name text Maximum 확인
+Series Name text Maximum 확인
+Series Name text 생략 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Detail POP UP,Top Area,"Series Title image 확인
+Series Title image 출력 여부 확인
+Series Name text 확인
+Content Series Name text 확인
+Series Name text 출력 여부 확인
+Update Cycle text 확인
+Update Cycle text UI 확인
+Weekly Update Cycle text Stringset 확인
+Update Cycle text 출력 여부 확인
+종영시 출력 여부 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,All K-POP Rail Screen,"Rail 확인
+title text 확인
+title text stringset 확인
+Rail Content 확인
+Content Order 확인
+Content 출력 한계 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Content,"Best Of The Week 출력 시 Content 개수 확인
+Content 개수 확인
+해상도 768 이하 적용 시 Best Of The Week 출력 상태 Content 개수 확인
+해상도 768 이하 적용 시 Content 개수 확인
+해상도 320 이하 적용 시 Best Of The Week 출력 상태 Content 개수 확인
+해상도 320 이하 적용 시 Content 개수 확인
+Poster image 확인
+Language icon 확인
+Mouse Hover 시 UI 확인
+Poster image 기능 확인
+Content Name 확인
+Content Name text 확인
+Mouse Hover 시 UI 확인
+Content Name text 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Content Image,"Content Image 확인
+Subtitle 확인
+Subtitle icon 확인
+Rail Content 확인
+Content Order 확인
+Content 출력 한계 확인
+Content Image 기능 확인
+Scroll Right 동작 확인
+Scroll Left 동작 확인
+Animation 확인
+Loop 동작 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Right Arrow Button 선택 시 출력 여부 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Rail Area,Content Meta Data,"Rating icon 확인
+TV-Y Rating icon stringset 확인
+TV-Y7 Rating icon stringset 확인
+TV-Y7-FV Rating icon stringset 확인
+TV-G Rating icon stringset 확인
+G Rating icon stringset 확인
+TV-PG Rating icon stringset 확인
+PG Rating icon stringset 확인
+PG-13 Rating icon stringset 확인
+TV-14 Rating icon stringset 확인
+R Rating icon stringset 확인
+TV-MA Rating icon stringset 확인
+NC-17 Rating icon stringset 확인
+Release Date 확인
+Release Date stringset 확인
+Content Release Date 확인
+Genre 확인
+Content Genre 확인
+다수일 경우 Content Genre 출력 여부 확인
+Episode Counter 확인
+Episode Counter 출력 여부 확인
+Episode Counter stringset 확인
+Episode Number 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Rail Area,Content title text,"title text 확인
+title text stringset 확인
+title text Maximum 확인
+title text 생략 확인",False,False,False,False,False,True,True,False,False
+Get Started,Content Rail Area,Don't Miss it Rail Screen,"Rail 확인
+title text 확인
+title text stringset 확인
+Rail Content 확인
+Content Order 확인
+Content 출력 한계 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,General Rules,"Default Setting 확인
+Mouse Hover 시 동작 확인
+Content Rail Area 확인",False,False,False,False,True,True,True,False,False
+Get Started,Content Rail Area,Left Arrow Button,"Left Arrow Button 확인
+Left Arrow Button 기능 확인
+Left Arrow Button 출력 여부 확인
+해상도 320 이하 적용 시 Left Arrow Button 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Must Movie Collection Rail Screen,"Rail 확인
+title text 확인
+title text stringset 확인
+Rail Content 확인
+Content Order 확인
+Content 출력 한계 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Rail Button,"Rail Button 확인
+Rail Button 선택 시 UI 확인
+Rail Button 기능 확인
+Trending Now Rail Button 확인
+title text 확인
+title text stringset 확인
+Don't Miss it Rail Button 확인
+title text 확인
+title text stringset 확인
+Through Time, For Love Rail Button 확인
+title text 확인
+title text stringset 확인
+All K-POP Rail Button 확인
+title text 확인
+title text stringset 확인
+Must Movie Collection Rail Button 확인
+title text 확인
+title text stringset 확인
+Must Movie Collection Rail Button 출력 여부 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Right Arrow Button,"Right Arrow Button 확인
+Right Arrow Button 기능 확인
+Right Arrow Button 출력 여부 확인
+해상도 320 이하 적용 시 Right Arrow Button 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,"Through Time, For Love Rail Screen","Rail 확인
+title text 확인
+title text stringset 확인
+Content 출력 한계 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,Trending Now in Korea Rail Screen,"Rail 확인
+title text 확인
+title text stringset 확인
+Rail Content 확인
+Content Order 확인
+Content 출력 한계 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Right Arrow Button 선택 시 출력 여부 확인",False,False,False,False,True,False,False,False,False
+Get Started,Content Rail Area,title text,"title text 확인
+title text stringset 확인",False,False,False,False,False,True,True,False,False
+Get Started,FAQ Area,1st Content,"title text 확인
+title text stringset 확인
+title text UI 확인
+Content 출력 여부 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,2nd Content,"title text 확인
+title text stringset 확인
+title text UI 확인
+Content 출력 여부 확인
+Samsung logo image 확인
+LG logo image 확인
+AppleTV logo image 확인
+GoogleTV logo image 확인
+ROKU logo image 확인
+VIZIO logo image 확인
+App Store logo image 확인
+Google Play logo image 확인
+Google Cast logo image 확인
+FireTV logo image 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,3rd Content,"title text 확인
+title text stringset 확인
+title text UI 확인
+Content 출력 여부 확인
+sub text 확인
+sub text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,4th Content,"title text 확인
+title text stringset 확인
+title text UI 확인
+Content 출력 여부 확인
+sub text 확인
+sub text stringset 확인
+Need Help Button 확인
+Need Help Button stringset 확인
+Need Help Button UI 확인
+Need Help Button icon 확인
+Need Help Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,5th Content,"title text 확인
+title text stringset 확인
+title text UI 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,Content,"Mouse Hover 시 UI 확인
+Mouse Hover 해제 시 UI 확인
+Plus Button 확인
+Plus Button 선택 시 동작 확인
+Plus Button 기능 확인
+Expand Animation 확인
+해상도 320 이하 적용 시 UI 확인
+Minus Button 확인
+Minus Button 동작 확인
+Minus Button 기능 확인
+Reduce Animation 확인
+해상도 320 이하 적용 시 UI 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,Expand 5th Content,"Content 출력 여부 확인
+Swtich Button 확인
+Default Setting 확인
+Swtich Button 선택 시 UI 확인
+Monthly Button 확인
+Monthly Button stringset 확인
+Monthly Button 기능 확인
+Annual Button 확인
+Annual Button stringset 확인
+Annual Button 기능 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Advertisement Benefit icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인
+Download Benefit icon 확인
+Download Benefit text 확인
+Download Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인
+통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+해상도 320 이하 적용 시 배치 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+Brief Ads Inform icon 확인
+Brief Ads Inform text 확인
+Brief Ads Inform text stringset 확인
+통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인
+통화 기호 확인
+Price text 확인
+Price text stringset 확인
+통화 코드 확인
+Per-Unit text 확인
+Per-Unit text stringset 확인
+Per-Unit text UI 확인
+Subscribe Button 확인
+Subscribe Button stringset 확인
+Subscribe Button UI 확인
+Subscribe Button 기능 확인
+Benefit guidance text 확인
+Benefit guidance text stringset 확인
+Benefit guidance text UI 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,General Rules,"FAQ Area 확인
+Default Setting 확인",False,False,False,False,True,False,False,False,False
+Get Started,FAQ Area,title text,"title text 확인
+title text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Footer Area,California Privacy Rights,"California Privacy Rights text 확인
+California Privacy Rights text Stringset 확인
+California Privacy Rights text 선택 시 동작 확인
+California Privacy Rights text 확인
+California Privacy Rights text Stringset 확인
+California Privacy Rights text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,Cookie Policy(Manage your cookie preferences),"Cookie Policy(Manage your cookie preferences) text 확인
+Cookie Policy(Manage your cookie preferences) text Stringset 확인
+Cookie Policy(Manage your cookie preferences) text 선택 시 동작 확인
+Cookie Policy(Manage your cookie preferences) text 확인
+Cookie Policy(Manage your cookie preferences) text Stringset 확인
+Cookie Policy(Manage your cookie preferences) text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,Do Not Sell My Personal Information,"Do Not Sell My Personal Information text 확인
+Do Not Sell My Personal Information text Stringset 확인
+Do Not Sell My Personal Information text 선택 시 동작 확인
+Do Not Sell My Personal Information text 확인
+Do Not Sell My Personal Information text Stringset 확인
+Do Not Sell My Personal Information text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,Interface Language Dropdown Box,"Interface Language Dropdown Box 확인
+해상도 768 이하 적용 시 Interface Language Dropdown Box 위치 확인
+해상도 320 이하 적용 시 Interface Language Dropdown Box 위치 확인
+Language icon 확인
+User Set Language 확인
+Downward icon 확인
+Interface Language Dropdown Box 선택 시 동작 확인
+Interface Language Dropdown Box 기능 확인
+Content 확인
+Mouse Hover 시 UI 확인
+Content 선택 시 UI 확인
+Content 선택 시 동작 확인
+Content 기능 확인
+English Content 확인
+English Content stringset 확인
+Português Content 확인
+Portuguese Content stringset 확인
+Español Content 확인
+Spanish Content stringset 확인
+Chinese Content 확인
+Chinese Content stringset 확인
+Vietnamese Content 확인
+Vietnamese Content stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Footer Area,KOCOWA+ Section,"Title Text 확인
+Title Text stringset 확인
+Help Center Text 확인
+Help Center Text Stringset 확인
+Help Center text 선택시 동작 확인
+Terms of Use text 확인
+Terms of Use text Stringset 확인
+Terms of Use text 선택 시 동작 확인
+Privacy Policy text 확인
+Privacy Policy text stringset 확인
+Privacy Policy text 선택 시 동작 확인
+Privacy Policy (Europe) text 확인
+Privacy Policy (Europe) text Stringset 확인
+Privacy Policy (Europe) text 선택 시 동작 확인
+Privacy Policy (Oceania) text 확인
+Privacy Policy (Oceania) text Stringset 확인
+Privacy Policy (Oceania) text 선택 시 동작 확인
+Privacy Policy (Brazil) text 확인
+Privacy Policy (Brazil) text Stringset 확인
+Privacy Policy (Brazil) text 선택 시 동작 확인
+Title Text 확인
+Title Text stringset 확인
+Help Center Text 확인
+Help Center Text Stringset 확인
+Help Center text 선택시 동작 확인
+Terms of Use text 확인
+Terms of Use text Stringset 확인
+Terms of Use text 선택 시 동작 확인
+Privacy Policy text 확인
+Privacy Policy text stringset 확인
+Privacy Policy text 선택 시 동작 확인
+Privacy Policy (Europe) text 확인
+Privacy Policy (Europe) text Stringset 확인
+Privacy Policy (Europe) text 선택 시 동작 확인
+Privacy Policy (Oceania) text 확인
+Privacy Policy (Oceania) text Stringset 확인
+Privacy Policy (Oceania) text 선택 시 동작 확인
+Privacy Policy (Brazil) text 확인
+Privacy Policy (Brazil) text Stringset 확인
+Privacy Policy (Brazil) text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,KOCOWA+ Social Media Section,"Title Text 확인
+Title Text stringset 확인
+해상도 768 미만 적용 시 KOCOWA+ Social Media Section UI 배치 확인
+Facebook icon 확인
+Facebook icon 동작 확인
+Youtube icon 확인
+Youtube icon 동작 확인
+Instargram icon 확인
+Instargram icon 동작 확인
+Twitter icon 확인
+Twitter icon 동작 확인
+Kocowa Blog icon 확인
+Kocowa Blog icon 동작 확인
+Title Text 확인
+Title Text stringset 확인
+Facebook icon 확인
+Facebook icon 동작 확인
+Youtube icon 확인
+Youtube icon 동작 확인
+Instargram icon 확인
+Instargram icon 동작 확인
+Twitter icon 확인
+Twitter icon 동작 확인
+Kocowa Blog icon 확인
+Kocowa Blog icon 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,Ratings Guidelines,"Ratings Guidelines text 확인
+Ratings Guidelines text Stringset 확인
+Ratings Guidelines text 선택 시 동작 확인
+Ratings Guidelines text 확인
+Ratings Guidelines text Stringset 확인
+Ratings Guidelines text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Footer Area,wavve Americas Section,"Division Line 확인
+해상도 768 미만 적용시 Division Line 위치 확인
+Title Text 확인
+Title Text Stringset 확인
+Corporate Information text 확인
+Corporate Information text Stringset 확인
+Corporate Information text 선택 시 동작 확인
+Careers text 확인
+Careers text Stringset 확인
+Careers text 선택 시 동작 확인
+Business Inquiries text 확인
+Business Inquiries text Stringset 확인
+Business Inquiries text 선택 시 동작 확인
+Division Line 확인
+Title Text 확인
+Title Text Stringset 확인
+Corporate Information text 확인
+Corporate Information text Stringset 확인
+Corporate Information text 선택 시 동작 확인
+Careers text 확인
+Careers text Stringset 확인
+Careers text 선택 시 동작 확인
+Business Inquiries text 확인
+Business Inquiries text Stringset 확인
+Business Inquiries text 선택 시 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Functional Area,General Rules,"Functional Area 확인
+Downward indicator icon 확인
+Downward indicator icon 동작 여부 확인
+Scroll Down 시 동작 확인
+Scroll Up 시 동작 확인
+Animation 확인",False,False,False,False,False,True,True,False,False
+Get Started,Functional Area,Sign In Button,"Sign In Button 확인
+Sign In Button stringset 확인
+Sign In Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Functional Area,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Sign Up Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Get Started Page,General Rules,"Scroll Up 동작 여부 확인
+Scroll Down 동작 확인
+Scroll Down 동작 여부 확인
+Scroll Up 동작 확인
+Scroll Up 동작 여부 확인
+Scroll Down 동작 확인
+Scroll Down 동작 여부 확인
+Scroll Up 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Header Area,Logo Button,"Logo Button 확인
+Logo Button stringset 확인
+Logo Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Header Area,Menu Button,"Menu Button 확인
+Menu Button UI 확인
+Menu Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Landing,GEO BLOCK,"Geo Blcok 동작 확인
+LTE 데이터 사용 시 Geo Blcok 동작 확인
+LTE 데이터 사용 중 개인정보 보호 사용 시 Geo Blcok 동작 확인
+Geo Blcok 동작 확인
+LTE 데이터 사용 시 Geo Blcok 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Landing,General Rules,"Get Started Page 진입 동작 확인
+Home Main Page 진입 동작 확인
+Get Started Page 진입 동작 확인
+Home Main Page 진입 동작 확인",False,False,False,False,True,True,True,False,False
+Get Started,Menu POP UP,FAQ's menu,"FAQ's menu 확인
+FAQ's menu stringset 확인
+FAQ's menu 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Menu POP UP,General Rules,"Menu POP UP 확인
+외부 영역 선택 시 동작 확인
+Drag icon 확인
+Drag icon 기능 확인
+Delimiter 확인",False,False,False,False,False,True,True,False,False
+Get Started,Menu POP UP,Help Center menu,"Help Center menu 확인
+Help Center menu stringset 확인
+Help Center menu 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Menu POP UP,Home menu,"Home menu 확인
+Home menu stringset 확인
+Home menu 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Menu POP UP,Privacy Policy menu,"Privacy Policy menu 확인
+Privacy Policy menu stringset 확인
+Privacy Policy menu 선택 시 동작 확인
+Privacy Policy menu 기능 확인
+Region Tracking 확인
+US Privacy Policy Page 진입
+Brazil Privacy Policy Page 진입
+Europe Privacy Policy Page 진입
+Oceania Privacy Policy Page 진입",False,False,False,False,False,True,True,False,False
+Get Started,Menu POP UP,Terms of Use menu,"Terms of Use menu 확인
+Terms of Use menu stringset 확인
+Terms of Use menu 선택 시 동작 확인
+Terms of Use menu 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Subscription Area,Basic Button,"Basic Button 확인
+Basic Button stringset 확인
+Basic Button UI 확인
+Basic Button 선택 시 동작 확인
+Basic Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,Basic Subscription Screen,"Content Image 확인
+해상도 320 이하 적용 시 Content Image 출력 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+해상도 320 이하 적용 시 Content Benefit text 배치 확인
+Advertisement Benefit icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,Funtional Section,"Start Monthly Button 확인
+해상도 320 이하 적용 시 Start Monthly Button 배치 확인
+Start Premium Monthly Button UI 확인
+Mouse Hover 시 UI 확인
+Start Monthly Button 기능 확인
+User Sign In 절차 완료 시 동작 확인
+Premium Subscription Screen 출력 시 stringset 확인
+Basic Subscription Screen 출력 시 stringset 확인
+Compare Plan Button 확인
+해상도 320 이하 적용 시 Compare Plan Button 배치 확인
+Compare Plan Button stringset 확인
+Compare Plan Button UI 확인
+Mouse Hover 시 UI 확인
+Compare Plan Button 선택 시 동작 확인
+Compare Plan Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,General Rules,"Subscription Area 확인
+Default Setting 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,Premium Button,"Premium Button 확인
+Premium Button stringset 확인
+Premium Button UI 확인
+Premium Button 선택 시 동작 확인
+Premium Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,Premium Subscription Screen,"Content Image 확인
+해상도 320 이하 적용 시 Content Image 출력 확인
+Advertisement Benefit icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인
+Download Benefit icon 확인
+Download Benefit text 확인
+Download Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+해상도 320 이하 적용 시 Content Benefit text 배치 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subscription Area,Title text,"Title text 확인
+Title text stringset 확인
+해상도 320 이하 적용 시 Title text 배치 확인
+Title text UI 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subtitle Guide Area,General Rules,"Subtitle Guide Area 확인
+Subtitle Guide Area 확인
+title text 확인
+title text stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Subtitle Guide Area,Mute Button,"Default Setting 확인
+Mute Button 확인
+icon 확인
+소리 재생 여부 확인
+Mute Button 기능 확인",False,False,False,False,False,True,True,False,False
+Get Started,Subtitle Guide Area,Sound Button,"Sound Button 확인
+icon 확인
+소리 재생 여부 확인
+Sound Button 기능 확인
+Volume Adjustment 지원 여부 확인",False,False,False,False,False,True,True,False,False
+Get Started,Subtitle Guide Area,Subtitle Button,"Default Setting 확인
+Subtitle Button 확인
+Mouse Hover 시 UI 확인
+Subtitle Button 선택 시 UI 확인
+Subtitle Button 기능 확인
+해상도 768 미만 시 Subtitle Button 배치 확인
+English Subtitle Button 확인
+English Subtitle Button stringset 확인
+Portuguese Subtitle Button 확인
+Portuguese Subtitle Button stringset 확인
+Spanish Subtitle Button 확인
+Spanish Subtitle Button stringset 확인
+Chinese Subtitle Button 확인
+Chinese Subtitle Button stringset 확인
+Vietnamese Subtitle Button 확인
+Vietnamese Subtitle Button stringset 확인
+Default Setting 확인
+Subtitle Button 확인
+Subtitle Button 선택 시 UI 확인
+Subtitle Button 기능 확인
+English Subtitle Button 확인
+English Subtitle Button stringset 확인
+Portuguese Subtitle Button 확인
+Portuguese Subtitle Button stringset 확인
+Spanish Subtitle Button 확인
+Spanish Subtitle Button stringset 확인
+Chinese Subtitle Button 확인
+Chinese Subtitle Button stringset 확인
+Vietnamese Subtitle Button 확인
+Vietnamese Subtitle Button stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Subtitle Guide Area,Video Screen,"Default Setting 확인
+Video Screen 확인
+Content 재생 확인
+Subtitle 확인
+English Subtitle 적용 확인
+Portuguese Subtitle 적용 확인
+Spanish Subtitle 적용 확인
+Chinese Subtitle 적용 확인
+Vietnamese Subtitle 적용 확인
+Area 이탈 시 동작 확인
+Area 복귀 시 동작 확인
+Content 반복 재생 확인
+Default Setting 확인
+Mute Button 확인
+icon 확인
+소리 재생 여부 확인
+Mute Button 기능 확인
+Sound Button 확인
+icon 확인
+소리 재생 여부 확인
+Sound Button 기능 확인
+Volume Adjustment 지원 여부 확인
+Default Setting 확인
+Video Screen 확인
+Content 재생 확인
+Subtitle 확인
+Area 이탈 시 동작 확인
+Area 복귀 시 동작 확인
+Content 반복 재생 확인
+English Subtitle 적용 확인
+Portuguese Subtitle 적용 확인
+Spanish Subtitle 적용 확인
+Chinese Subtitle 적용 확인
+Vietnamese Subtitle 적용 확인",False,False,False,False,True,True,True,False,False
+Get Started,Subtitle Guide Area,sub text,"sub text 확인
+sub text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Subtitle Guide Area,title text,"title text 확인
+title text stringset 확인",False,False,False,False,True,False,False,False,False
+Get Started,Thumbnail Rail Area,General Rules,"Thumbnail Rail Area 확인
+해상도 320 이하 적용 시 Thumbnail Rail Area 출력 확인
+Thumbnail Image 확인
+Thumbnail Image 출력 한계 확인
+Auto Scroll 동작 확인
+Auto Scroll 방향 확인
+Loop Structure 적용 확인
+Thumbnail Image 선택 시 동작 여부 확인
+Automatically update 동작 확인
+Automatically update 동작 주기 확인",False,False,False,False,True,False,False,False,False
+Get Started,Top Area,Background image,Background image 확인,False,False,False,False,True,False,False,False,False
+Get Started,Top Area,General Rules,"Top Area 확인
+Top Area 확인
+Background image 확인",False,False,False,False,True,True,True,False,False
+Get Started,Top Area,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Mouse Hover 시 UI 확인
+Sign Up Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Top Area,sub text,"sub text 확인
+sub text stringset 확인
+해상도 320 이하 적용 시 sub text stringset 확인
+sub text UI 확인
+sub text 확인
+sub text stringset 확인
+sub text UI 확인",False,False,False,False,True,True,True,False,False
+Get Started,Top Area,title text,"title text 확인
+title text stringset 확인
+title text 확인
+title text stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Top Invitation Area,Benefit Informataion Section,"Animation 확인
+Animation Order 확인
+일괄 출력 확인
+Advertisement Benefit icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Profile Benefit icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Download Benefit icon 확인
+Download Benefit text 확인
+Download Benefit text stringset 확인
+Content Benefit icon 확인
+Content Benefit text 확인
+Content Benefit text stringset 확인
+Renewal Benefit icon 확인
+Renewal Benefit text 확인
+Renewal Benefit text stringset 확인",False,False,False,False,False,True,True,False,False
+Get Started,Top Invitation Area,General Rules,"Top Invitation Area 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+해상도 320 이하 적용 시 sub text 배치 확인
+Top Invitation Area 확인
+title text 확인
+title text stringset 확인",False,False,False,False,True,True,True,False,False
+Get Started,Top Invitation Area,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Mouse Hover 시 UI 확인
+Sign Up Button 기능 확인",False,False,False,False,True,False,False,False,False
+Get Started,Top Invitation Area,free trial Inform text,"free trial Inform text 확인
+free trial Inform text stringset 확인
+해상도 320 이하 적용시 free trial Inform text stringset 배치 확인",False,False,False,False,True,False,False,False,False
+Get Started,Unlock Now Area,Drama text,"Drama text 확인
+Drama text stringset 확인
+Drama text UI 확인
+Drama text Opacity 확인
+Drama text 확인
+Drama text stringset 확인
+Drama text UI 확인
+Drama text Opacity 확인",False,False,False,False,True,True,True,False,False
+Get Started,Unlock Now Area,General Rules,"Unlock Now Area 확인
+title text 확인
+title text stringset 확인
+Content Image 확인
+Unlock Now Area 확인
+title text 확인
+title text stringset 확인
+Content Image 확인",False,False,False,False,True,True,True,False,False
+Get Started,Unlock Now Area,K-POP text,"K-POP text 확인
+K-POP text stringset 확인
+K-POP text UI 확인
+K-POP text Opacity 확인
+K-POP text 확인
+K-POP text stringset 확인
+K-POP text UI 확인
+K-POP text Opacity 확인",False,False,False,False,True,True,True,False,False
+Get Started,Unlock Now Area,Sign Up Button,"Sign Up Button 확인
+Sign Up Button stringset 확인
+Sign Up Button UI 확인
+Sign Up Button 기능 확인
+Sign Up 절차 완료 시 동작 확인",False,False,False,False,True,False,False,False,False
+Get Started,Unlock Now Area,Variety text,"Variety text 확인
+Variety text stringset 확인
+Variety text UI 확인
+Variety text Opacity 확인
+Variety text 확인
+Variety text stringset 확인
+Variety text UI 확인
+Variety text Opacity 확인",False,False,False,False,True,True,True,False,False
+Get Started,Unlock Now Area,Webcomics text,"Webcomics text 확인
+Webcomics text stringset 확인
+Webcomics text UI 확인
+Webcomics text Opacity 확인
+Webcomics text 확인
+Webcomics text stringset 확인
+Webcomics text UI 확인
+Webcomics text Opacity 확인",False,False,False,False,True,True,True,False,False

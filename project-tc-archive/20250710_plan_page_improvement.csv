@@ -1,0 +1,876 @@
+project_name,main_category,scope_of_dev,test_case,Fire TV,Roku,Android TV,Apple TV,Web,Apple Mobile,Android Mobile,Smart TV,Vizio TV
+Plan Page Improvement,Home Main Page,Top Area,"Upgrade Menu 노출 여부 확인
+Upgrade Menu 확인
+Upgrade Menu 기능 확인
+Upgrade Menu 노출 여부 확인
+Upgrade Menu 확인
+Upgrade Menu 기능 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Basic Subscription Section,"Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Subscribe item text 확인
+title text stringset 확인
+Currency 확인
+Price 확인
+Division Line 확인
+Manual Renewal Required text 확인
+Manual Renewal Required text UI 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Subscribe item text 확인
+title text stringset 확인
+Currency 확인
+Price 확인
+Division Line 확인
+Manual Renewal Required text 확인
+Manual Renewal Required text UI 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Face icon 확인
+Single Profile text 확인
+Single Profile text stringset 확인
+Recycle icon 확인
+Auto Renewal text 확인
+Auto Renewal text stringset 확인
+Bolt icon 확인
+Unlimited Content text 확인
+Unlimited Content text stringset 확인
+Monitor icon 확인
+Advertisement text 확인
+Advertisement text stringset 확인
+Rectangle 확인
+type icon 확인
+type icon stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+Swipe indicator 노출 확인
+Swipe indicator 활성화 확인
+Swipe indicator 비활성화 확인
+외부 Component 노출 확인
+Swipe 좌측 이동 확인
+Swipe 우측 이동 확인
+Swipe 하단 이동 확인
+Swipe 상단 이동 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Face icon 확인
+Single Profile text 확인
+Single Profile text stringset 확인
+Recycle icon 확인
+Auto Renewal text 확인
+Auto Renewal text stringset 확인
+Bolt icon 확인
+Unlimited Content text 확인
+Unlimited Content text stringset 확인
+Monitor icon 확인
+Advertisement text 확인
+Advertisement text stringset 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,General Rules,"title text 확인
+KOCOWA logo 확인
+sub text 확인
+Default Setting 확인
+리모컨 취소 Button 입력 시 동작 확인
+타 Platform 구독 상품 연동 동작 확인
+title text 확인
+KOCOWA logo 확인
+sub text 확인
+Default Setting 확인
+리모컨 취소 Button 입력 시 동작 확인
+타 Platform 구독 상품 연동 동작 확인",True,True,True,True,False,False,False,True,True
+Plan Page Improvement,Subscribe Page,Information Section,"Bullet Point 확인
+Guideline Information text 확인
+Guideline Information text stringset 확인
+Guideline text UI 확인
+Guideline text Button 선택 시 동작 확인
+Guideline text Button 기능 확인
+Coupon Information text 확인
+Coupon Information text stringset 확인
+Coupon Information text 노출 여부 확인
+Premium Pass Information text 확인
+here text Button 확인
+here text Button stringset 확인
+here text Button UI 확인
+here text Button 기능 확인
+free trial Inform text 확인
+free trial Inform text stringset 확인",False,False,False,False,False,True,True,False,False
+Plan Page Improvement,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section","Content Component 해상도 320 노출 확인
+Content poster image 확인
+language icon 확인
+poster image Hover 시 동작 확인
+poster image Hover 시 UI 확인
+poster image Hover 시 기능 확인
+poster image 기능 확인
+Content Name text 확인
+Content Name text 생략 확인
+Content Name text Hover 시 UI 확인
+Content Name text 기능 확인
+Default Setting 확인
+Favorite Button 확인
+미로그인 시 Favorite icon 기능 확인
+Favorite Button 선택 시 동작 확인
+Favorite Button 기능 확인
+Bookmarked Button 확인
+Bookmarked Button 선택 시 동작 확인
+Bookmarked Button 기능 확인
+Genre text 확인
+Genre text 생략 확인
+Subtitle text 확인
+Content Subtitle 확인
+Content Subtitle stringset 국가별 확인
+English Subtitle stringset 확인
+Portuguese Subtitle stringset 확인
+Spanish Subtitle stringset 확인
+Chinese Subtitle stringset 확인
+Vietnamese Subtitle stringset 확인",False,False,False,False,True,False,False,False,False
+Plan Page Improvement,Subscribe Page,KOCOWA+ for Your Enjoyment Area,"title Text stringset 노출 확인
+Sub Text stringset 노출 확인
+Content Component 노출 확인
+Content Component 해상도 1024 이상 노출 확인
+Content Component 해상도 768 노출 확인
+Content Component 최대 개수 확인
+Episode 미편성 시 Content Component 노출 확인
+Content Component 우측 Indicator 노출 확인
+Content Component 우측 Indicator 동작 확인
+Content Component 우측 Indicator 미노출 확인
+Content Component 좌측 Indicator 노출 확인
+Content Component 좌측 Indicator 동작 확인
+Content Component 좌측 Indicator 미노출 확인
+Content Component 해상도 320 Indicator 노출 확인
+우측 외부 Content Component 노출 확인
+우측 외부 Content Component 미노출 확인",False,False,False,False,True,False,False,False,False
+Plan Page Improvement,Subscribe Page,Option List Area,"title text 확인
+sub text 확인
+Price text 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division line 확인
+Benefit guidance text 
+item focus 시 UI 확인
+item 선택 시 동작 확인
+Vizio LINK 안 되어 있을 시 Suscription item 기능 확인
+QR Code URL 노출 확인
+Subscription item 결제 완료 시 동작 확인
+Check icon 확인
+User Status text 확인
+sub text 확인
+title text 확인
+Original Price text 확인
+Original Price text UI 확인
+Price text 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+item focus 시 UI 확인
+item 선택 시 동작 확인
+Vizio LINK 안 되어 있을 시 Suscription item 기능 확인
+QR Code URL 노출 확인
+Subscription item 결제 완료 시 동작 확인
+Check icon 확인
+User Status text 확인
+title text 확인
+sub text 확인
+Price text 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division line 확인
+Benefit guidance text 
+item focus 시 UI 확인
+Subscription item 결제 완료 시 동작 확인
+Check icon 확인
+User Status text 확인
+sub text 확인
+title text 확인
+Original Price text 확인
+Original Price text UI 확인
+Price text 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+item focus 시 UI 확인
+Subscription item 결제 완료 시 동작 확인
+Check icon 확인
+User Status text 확인",True,True,True,True,False,False,False,True,True
+Plan Page Improvement,Subscribe Page,PLAN Change Unavailable POP UP,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button 기능 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button 기능 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+OK Button 확인
+OK Button 기능 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Premium Subscription Section,"Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Subscribe item text 확인
+title text stringset 확인
+Currency 확인
+Price 확인
+Division Line 확인
+Manual Renewal Required text 확인
+Manual Renewal Required text UI 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+title text UI 확인
+Subscribe item text 확인
+title text stringset 확인
+Currency 확인
+Price 확인
+Division Line 확인
+Manual Renewal Required text 확인
+Manual Renewal Required text UI 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Monitor icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Face icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Recycle icon 확인
+Auto Renewal text 확인
+Auto Renewal text stringset 확인
+Downward Arrow icon 확인
+Download Content text 확인
+Download Content text stringset 확인
+Bolt icon 확인
+Unlimited Content text 확인
+Unlimited Content text stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+sub text 노출 확인
+Swipe indicator 노출 확인
+Swipe indicator 활성화 확인
+Swipe indicator 비활성화 확인
+외부 Component 노출 확인
+Swipe 좌측 이동 확인
+Swipe 우측 이동 확인
+Swipe 하단 이동 확인
+Swipe 상단 이동 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Per-Unit text UI 확인
+Division Line 확인
+Benefit guidance text 확인
+Benefit guidance text UI 확인
+Benefit guidance text 노출 여부 확인
+Check icon 확인
+Subscribed text 확인
+Subscribed text stringset 확인
+Subscription item Hover 시 UI 확인
+미로그인 시 Subscription item 기능 확인
+Subscription item 기능 확인
+구독 중일 시 Subscription item UI 확인
+Monitor icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Face icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Recycle icon 확인
+Auto Renewal text 확인
+Auto Renewal text stringset 확인
+Downward Arrow icon 확인
+Download Content text 확인
+Download Content text stringset 확인
+Bolt icon 확인
+Unlimited Content text 확인
+Unlimited Content text stringset 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Promotion Design,"Promotion Design 적용 여부 확인
+Promotion Design 적용 확인
+Promotion Label 확인
+Promotion Label stringset 확인
+Subscription item UI 확인
+Promotion Label 확인
+Bolt icon 확인
+Promotion Label stringset 확인
+Promotion Time limited Label stringset 확인
+Promotion Time limited 작동 확인
+Promotion Time limited 모두 작동 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Bolt icon 확인
+Promotion inform text 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion Design 적용 여부 확인
+Promotion Design 적용 확인
+Subscription item UI 확인
+Promotion Label 확인
+Bolt icon 확인
+Promotion Label stringset 확인
+Promotion Time limited Label stringset 확인
+Promotion Time limited 작동 확인
+Promotion Time limited 모두 작동 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Bolt icon 확인
+Promotion inform text 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Original Price 확인
+Original Price UI 확인
+Subscription item 선택 시 동작 확인
+Subscription item 기능 확인
+Bolt icon 확인
+Promotion inform text 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인
+Promotion inform text stringset 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Select your Plan Area,"title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+해상도 768 이상일 시 Sorting Order 확인
+해상도 320 이하일 시 Sorting Order 확인
+해상도 320 이하일 시 UI 확인
+Rectangle 확인
+type icon 확인
+type icon stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+해상도 768 이하일 시 sub text 확인
+Division Line 확인
+Single Pass text 확인
+Rectangle 확인
+type icon 확인
+type icon stringset 확인
+title text 확인
+title text stringset 확인
+sub text 확인
+sub text stringset 확인
+해상도 768 이하일 시 sub text 확인
+Division Line 확인
+Single Pass text 확인
+Bullet Point 확인
+Guideline Information text 확인
+Guideline Information text stringset 확인
+Guideline text UI 확인
+Guideline text Button 선택 시 동작 확인
+Guideline text Button 기능 확인
+Coupon Information text 확인
+Coupon Information text stringset 확인
+Coupon Information text 노출 여부 확인
+Premium Pass Information text 확인
+here text Button 확인
+here text Button stringset 확인
+here text Button UI 확인
+here text Button 기능 확인
+free trial Inform text 확인
+free trial Inform text stringset 확인
+Tablet으로 title text 확인
+Tablet으로 title text stringset 확인
+Tablet으로 Premium Subscription 노출 확인
+Tablet으로 Basic Subscription 노출 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Subscription Category Area,"sub text 확인
+Monitor icon 확인
+Advertisement benefit text 확인
+Face icon 확인
+Profile benefit text 확인
+Cycle icon 확인
+Renewal benefit text 확인
+Downward icon 확인
+Download benefit text 확인
+Thunder icon 확인
+Contents benefit text 확인
+Information text 확인
+My Account text UI 확인
+Account text UI 확인
+KOCOWA+ website or mobile apps. text UI 확인
+sub text 확인
+Monitor icon 확인
+Advertisement benefit text 확인
+Face icon 확인
+Profile benefit text 확인
+Cycle icon 확인
+Renewal benefit text 확인
+Downward icon 확인
+Download benefit text 확인
+Thunder icon 확인
+Contents benefit text 확인
+Information text 확인
+My Account text UI 확인
+Account text UI 확인
+KOCOWA+ website or mobile apps. text UI 확인",True,True,True,True,False,False,False,True,True
+Plan Page Improvement,Subscribe Page,Top Area,"title text 확인
+title text stringset 확인
+Division Line 확인",False,False,False,False,True,False,False,False,False
+Plan Page Improvement,Subscribe Page,Upgrade for a Better Experience! Area,"Upgrade for a Better Experience! Area 노출 여부 확인
+Upgrade for a Better Experience! Area 노출 여부 확인
+title text 확인
+title text stringset 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+User Subscription 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Price text 확인
+Price text UI 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Upgrade Now Button 확인
+Upgrade Now Button stringset 확인
+Upgrade Now Button 기능 확인
+Division Line 확인
+해상도 768 이하 적용 시 Division Line 노출 여부 확인
+Compare inform text 확인
+Compare inform text stringset 확인
+Delimiter 확인
+Delimiter 노출 여부 확인
+Monitor icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Downward Arrow icon 확인
+Download Content text 확인
+Download Content text stringset 확인
+Face icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+해상도 1024 이상 적용 시 배치 간격 확인
+해상도 768 이하 적용 시 배치 간격 확인
+Premioum Monthly Section 노출 여부 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Price text 확인
+Price text UI 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Upgrade Now Button 확인
+Upgrade Now Button stringset 확인
+Upgrade Now Button 기능 확인
+Division Line 확인
+해상도 768 이하 적용 시 Division Line 노출 여부 확인
+Compare inform text 확인
+Compare inform text stringset 확인
+Delimiter 확인
+Delimiter 노출 여부 확인
+Bolt icon 확인
+Discount Benefit text 확인
+Discount Benefit text stringset 확인
+Bullet Point 확인
+Check Guidance text 확인
+Check Guidance text stringset 확인
+Platform Guidance text 확인
+Platform Guidance text stringset 확인
+타 Platform 결제 시 동작 확인
+Upgrade for a Better Experience! Area 노출 여부 확인
+Upgrade for a Better Experience! Area 노출 여부 확인
+title text 확인
+title text stringset 확인
+Swipe indicator 노출 확인
+Swipe indicator 좌측 활성화 확인
+Swipe indicator 가운데 비활성화 확인
+Swipe indicator 우측 비활성화 확인
+Upgrade for a Better Experience!에서 외부 Component 노출 확인
+Upgrade for a Better Experience!에서 Swipe 우측 이동 확인
+Upgrade for a Better Experience!에서 Swipe 좌측 이동 확인
+Premium Subscription에서 좌측 외부 Component 노출 확인
+Premium Subscription에서 우측 외부 Component 노출 확인
+Premium Subscription Swipe 우측 이동 확인
+Premium Subscription에서 Swipe 좌측 이동 확인
+Basic Subscription에서 외부 Component 노출 확인
+Basic Subscription Swipe 우측 이동 확인
+Basic Subscription Swipe 좌측 이동 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+User Subscription 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Price text 확인
+Price text UI 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Upgrade Now Button 확인
+Upgrade Now Button stringset 확인
+Upgrade Now Button 기능 확인
+Check icon 확인
+Compare inform text 확인
+Compare inform text stringset 확인
+Monitor icon 확인
+Advertisement Benefit text 확인
+Advertisement Benefit text stringset 확인
+Downward Arrow icon 확인
+Download Content text 확인
+Download Content text stringset 확인
+Face icon 확인
+Profile Benefit text 확인
+Profile Benefit text stringset 확인
+Premioum Monthly Section 노출 여부 확인
+Rectangle 확인
+title text 확인
+title text stringset 확인
+Price text 확인
+Price text UI 확인
+Currency 확인
+User Currency 확인
+Dollar Currency stringset 확인
+Real brasileiro Currency stringset 확인
+Pound Currency stringset 확인
+Price 확인
+User Price 확인
+Dollar Price stringset 확인
+Real brasileiro Price stringset 확인
+Europe Price stringset 확인
+Oceania Price stringset 확인
+Per-Unit text 확인
+Upgrade Now Button 확인
+Upgrade Now Button stringset 확인
+Upgrade Now Button 기능 확인
+Check icon 확인
+Compare inform text 확인
+Compare inform text stringset 확인
+Bolt icon 확인
+Discount Benefit text 확인
+Discount Benefit text stringset 확인
+Bullet Point 확인
+Check Guidance text 확인
+Check Guidance text stringset 확인
+Tablet으로 Premium Monthly 상품 노출 확인
+Tablet으로 Premium Annual 상품 노출 확인
+Check Guidance text 확인
+Check Guidance text stringset 확인
+Platform Guidance text 확인
+Platform Guidance text stringset 확인
+타 Platform 결제 시 동작 확인",False,False,False,False,True,True,True,False,False
+Plan Page Improvement,Subscribe Page,Why Choose KOCOWA+ Service? Area,"Why Choose KOCOWA+ Service? 
+Section Tiltle Text stringset 확인
+Why Choose KOCOWA+ Service? 
+Section Component 노출 확인
+Why Choose KOCOWA+ Service? 
+Section Component 노출 확인
+Why Choose KOCOWA+ Service? 
+Section Component 노출 확인
+Exclusive
+Korean Drama & Movies icon 노출 확인
+Exclusive
+Korean Drama & Movies title Text stringset 노출 확인
+Exclusive
+Korean Drama & Movies Sub Text stringset 노출 확인
+Multi-Language Subtitles icon 노출 확인
+Multi-Language Subtitles title Text stringset 노출 확인
+Multi-Language Subtitles Sub Text stringset 노출 확인
+Fast & Seamless Streaming icon 노출 확인
+Fast & Seamless Streaming title Text stringset 노출 확인
+Fast & Seamless Streaming Sub Text stringset 노출 확인
+Cross-Device Sync icon 노출 확인
+Cross-Device Sync title Text stringset 노출 확인
+Cross-Device Sync Sub Text stringset 노출 확인
+Flexible Plan & Easy icon 노출 확인
+Flexible Plan & Easy title Text stringset 노출 확인
+Flexible Plan & Easy Sub Text stringset 노출 확인
+Exclusive Discounts for Annual Plans icon 노출 확인
+Exclusive Discounts for Annual Plans title Text stringset 노출 확인
+Exclusive Discounts for Annual Plans Sub Text stringset 노출 확인",False,False,False,False,True,False,False,False,False

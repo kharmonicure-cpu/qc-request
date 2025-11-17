@@ -1,0 +1,10 @@
+Purpose,대분류,중분류,소분류,Section,테스트 항목,사전조건,테스트 스텝,기대결과
+WEB,Landing,,,,Get Started Page 진입 동작 확인,"1. KOCOWA.Webpage 진입
+2. 미로그인 상태",Get Started Page 진입 확인,Get Started Page 진입된다
+WEB,Landing,,,,Home Main Page 진입 동작 확인,"1. KOCOWA.Webpage 진입
+2. KOCOWA 계정 Sign In 상태",Home Main Page 진입 확인,Home Main Page 진입된다
+MOBILE,Sign In,Email Sign In,,,Email Sign In 버튼 동작 확인,1. Sign In Page 진입,Email Sign In 버튼 선택,Email Sign In Page로 이동된다
+MOBILE,Sign In,Email Sign In,,,비밀번호 표시 버튼 동작 확인,1. Email Sign In Page 진입,비밀번호 표시 버튼 선택,비밀번호가 표시된다
+CONNECTED TV,Playback,Video Player,,,재생 버튼 동작 확인,1. Video Player 진입,재생 버튼 선택,영상이 재생된다
+CONNECTED TV,Playback,Video Player,,,일시정지 버튼 동작 확인,1. Video Player에서 영상 재생 중,일시정지 버튼 선택,영상이 일시정지된다
+SMARTTV,Home,Main Banner,,,메인 배너 노출 확인,1. Home Page 진입,메인 배너 영역 확인,메인 배너가 표시된다

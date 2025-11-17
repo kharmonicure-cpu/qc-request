@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+*.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Anaconda/ Conda
+.anaconda/
+.conda/
+conda-meta/
+pkgs/
+envs/
+**/anaconda/
+**/site-packages/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*~
+
+# Data (uncomment if you don't want to track data files)
+# data/*.csv
+# data/*.xlsx
+# processed-data/*.csv
