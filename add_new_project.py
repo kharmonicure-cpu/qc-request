@@ -20,8 +20,8 @@ from pathlib import Path
 from datetime import datetime
 
 # ========== UPDATE THESE VALUES ==========
-INPUT_FILE = "sample_input.csv"  # File in preprocessed-tc/ folder
-PROJECT_NAME = "Sample Project"   # Your project name
+INPUT_FILE = "basic_web.csv"  # File in preprocessed-tc/ folder
+PROJECT_NAME = "Basic Verification"   # Your project name
 # =========================================
 
 # === DO NOT MODIFY BELOW THIS LINE ===

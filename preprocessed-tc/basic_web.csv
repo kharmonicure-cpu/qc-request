@@ -1,0 +1,1817 @@
+Purpose,대분류,중분류,소분류,Section,테스트 항목,사전조건,테스트 스텝,기대결과
+WEB,Sign In Page,Header Area,,#NAME?,KOCOWA logo image 확인,1. Sign In Page 진입,KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Sign In Page,Header Area,,#NAME?,KOCOWA logo image 기능 확인,1. Sign In Page 진입,KOCOWA logo image 선택,Home Main Page 진입된다
+WEB,Sign In Page,Header Area,,#NAME?,Home Button 확인,1. Sign In Page 진입,Home Button 확인,Home Button 출력된다
+WEB,Sign In Page,Header Area,,#NAME?,Home Button 기능 확인,1. Sign In Page 진입,Home Button 선택,Home Main Page 진입된다
+WEB,Sign In Page,Header Area,,#NAME?,Language icon 확인,1. Sign In Page 진입,Language icon 출력 확인,지구본 형태의 Language icon 출력된다
+WEB,Sign In Page,Header Area,,#NAME?,Language icon Hover 시 동작 확인,1. Sign In Page 진입,Language icon Hover,Language Dropdown Menu 출력된다
+WEB,Sign In Page,Header Area,,#NAME?,Header Area 상단 Fix 확인,1. Sign In Page 진입,Scroll Down,Header Area 상단 고정되어 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,,#NAME?,input box 확인,1. Sign In Page 진입,input box 출력 확인,input box 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,,#NAME?,text 선택 시 동작 확인,1. Sign In Page 진입,text 선택,선택한 text 입력된다
+WEB,KOCOWA ID Sign In,Email Input Area,,#NAME?,text 입력 시 동작 확인,1. Sign In Page 진입,text 입력,Placeholder 사라진다
+WEB,KOCOWA ID Sign In,Email Input Area,,#NAME?,Backspace Button 선택 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",Backspace Button 선택,입력된 text 1글자씩 삭제된다
+WEB,KOCOWA ID Sign In,Email Input Area,,#NAME?,text 삭제 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,Placeholder 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,실시간 유효성 검사 동작 확인,1. Sign In Page 진입,text 입력,입력된 text 기반으로 실시간 유효 여부 확인된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,text 미입력 시 UI 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,text 미입력 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,Absence Error message text 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,Absence Error message text UI 확인,"1. Sign In Page 진입
+2. text 입력
+3. 입력된 text 삭제",Absence Error message text 출력 확인,Absence Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,At 미입력 시 동작 확인,"1. Sign In Page 진입
+2. 계정 정보 입력","At ""@"" 특수 문자 삭제",Invalid Error message text 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,Domain 미입력 시 동작 확인,"1. Sign In Page 진입
+2. 계정 정보 입력","Domain ""."" 특수 문자 삭제",Invalid Error message text 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,Invalid Error message text UI 확인,"1. Sign In Page 진입
+2. 계정 정보 입력",Invalid Error message text 출력 확인,Invalid Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,유효한 Email 입력 시 동작 확인,"1. Sign In Page 진입
+2. 계정 정보 입력",유효한 계정 정보 입력,Error message text 사라진다
+WEB,KOCOWA ID Sign In,Email Input Area,Validation,#NAME?,유효한 Email 입력 시 UI 확인,"1. Sign In Page 진입
+2. 계정 정보 입력",유효한 계정 정보 입력,input box 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,input box 확인,1. Sign In Page 진입,input box 출력 확인,input box 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,text 선택 시 동작 확인,1. Sign In Page 진입,text 선택,선택한 text 입력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,text 입력 시 동작 확인,1. Sign In Page 진입,text 입력,Placeholder 사라진다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Password 암호화 여부 확인,1. Sign In Page 진입,text 입력,"입력된 text ""*"" 표시로 암호화되어 출력된다"
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Backspace Button 선택 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",Backspace Button 선택,입력된 text 1글자씩 삭제된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,text 삭제 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,Placeholder 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Show Password icon 확인,1. Sign In Page 진입,Show Password icon 출력 확인,Slashed Eye 형태의 Show Password icon 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Show Password icon UI 확인,1. Sign In Page 진입,Show Password icon 출력 확인,Show Password icon Dimmed 처리되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Show Password icon 기능 확인,"1. Sign In Page 진입
+2. Password 입력된 상태",Show Password icon 선택,입력된 text 비암호화되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Show Password icon 선택 시 동작 확인,"1. Sign In Page 진입
+2. Password 입력된 상태",Show Password icon 선택,Hide Password icon Toggle 동작한다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Hide Password icon 확인,"1. Sign In Page 진입
+2. Show Password icon 선택",Hide Password icon 출력 확인,Eye 형태의 Hide Password icon 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Hide Password icon UI 확인,"1. Sign In Page 진입
+2. Show Password icon 선택",Hide Password icon 출력 확인,Hide Password icon 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Hide Password icon 기능 확인,"1. Sign In Page 진입
+2. Password 입력
+3. Show Password icon 선택",Hide Password icon 선택,입력된 text 암호화되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,,#NAME?,Hide Password icon 선택 시 동작 확인,"1. Sign In Page 진입
+2. Password 입력
+3. Show Password icon 선택",Hide Password icon 선택,Show Password icon Toggle 동작한다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,실시간 유효성 검사 동작 확인,1. Sign In Page 진입,text 입력,입력된 text 기반으로 실시간 유효 여부 확인된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,text 미입력 시 UI 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,text 미입력 시 동작 확인,"1. Sign In Page 진입
+2. text 입력",입력된 text 삭제,Absence Error message text 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,Absence Error message text UI 확인,"1. Sign In Page 진입
+2. text 입력
+3. 입력된 text 삭제",Absence Error message text 출력 확인,Absence Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,6자 미만 입력 시 동작 확인,1. Sign In Page 진입,6자 미만 입력,Minimum Error message text 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,20자 이상 입력 시 동작 확인,1. Sign In Page 진입,20자 이상 입력,Maximum Error message text 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,Minimum Error message text UI 확인,"1. Sign In Page 진입
+2. 6자 미만 입력",Invalid Error message text 출력 확인,Minimum Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,Maximum Error message text UI 확인,"1. Sign In Page 진입
+2. 20자 초과 입력",Invalid Error message text 출력 확인,Maximum Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,유효한 Password 입력 시 동작 확인,1. Sign In Page 진입,유효한 암호 입력,Error message text 사라진다
+WEB,KOCOWA ID Sign In,Password Input Area,Validation,#NAME?,유효한 Password 입력 시 UI 확인,1. Sign In Page 진입,유효한 암호 입력,input box 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign In,Function Area,Forgot Password text Button,#NAME?,Forgot Password text Button 기능 확인,1. Sign In Page 진입,Forgot Password text Button 선택,Forgot Password Page 진입된다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,Sign In Button 선택 시 동작 확인,1. Sign In Page 진입,Sign In Button 선택,계정 정보 유효성 검사 동작한다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,계정 정보 미입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. Account 미입력",Sign In Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,비유효 Email 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. 유효하지 않은 Email 정보 입력
+3. 유효한 Password 입력",Sign In Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,비유효 Passwrod 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. 유효하지 않은 Password 입력
+3. 유효한 Email Address 입력",Sign In Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,미가입 KOCOWA 계정 정보 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. 가입되지 않은 KOCOWA 계정 정보 입력",Sign In Button 선택,Incorrect Password POP UP 출력된다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,Wrong Password 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. KOCOWA 계정 정보 입력
+3. Wrong Password 입력",Sign In Button 선택,Incorrect Password POP UP 출력된다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,Social Account 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. Social Account 정보 입력
+3. SNS Linked 상태",Sign In Button 선택,SNS LINK POP UP 출력된다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,유효한 계정 정보 입력 시 Sign In Button 기능 확인,"1. Sign In Page 진입
+2. 유효한 계정 정보 입력",Sign In Button 선택,해당 계정으로 Sign in 된다
+WEB,KOCOWA ID Sign In,Function Area,Sign In Button,#NAME?,Sign In 시 동작 확인,"1. Sign In Page 진입
+2. 유효한 계정 정보 입력",Sign In Button 선택,Multi-Profile Main Page 진입된다
+WEB,KOCOWA ID Sign In,Function Area,Sign Up text Button,#NAME?,Sign Up text Button 기능 확인,1. Sign In Page 진입,Sign Up text Button 선택,Sign Up Page 진입된다
+WEB,Social Sign In,Google Social Sign In,,#NAME?,Google Social Sign In Button 확인,1. Sign In Page 진입,Google Social Sign In Button 출력 확인,Google Social Sign In Button 출력된다
+WEB,Social Sign In,Google Social Sign In,,#NAME?,Google Social Sign In Button 기능 확인,1. Sign In Page 진입,Google Social Sign In Button 선택,Google Sign In POP UP 출력된다
+WEB,Social Sign In,Google Social Sign In,Google Sign In POP UP,#NAME?,Google Social Sign In 기능 확인,"1. Sign In Page 진입
+2. Google Social Sign In Button 선택
+3. SNS Linked 상태",Google Social Account 입력,해당 계정으로 Sign in 된다
+WEB,Social Sign In,Google Social Sign In,Google Sign In POP UP,#NAME?,Google Social Sign In 시 동작 확인,"1. Sign In Page 진입
+2. Google Social Sign In Button 선택
+3. SNS Linked 상태",Google Social Account 입력,Multi-Profile Main Page 진입된다
+WEB,Social Sign In,Google Social Sign In,Google Sign In POP UP,#NAME?,Google Social Sign Up 기능 확인,"1. Sign In Page 진입
+2. Google Social Sign In Button 선택
+3. SNS Link 되어 있지 않은 상태",Google Social Account 입력,해당 계정으로 Sign Up 된다
+WEB,Social Sign In,Google Social Sign In,Google Sign In POP UP,#NAME?,Google Social Sign Up 시 동작 확인,"1. Sign In Page 진입
+2. Google Social Sign In Button 선택
+3. SNS Link 되어 있지 않은 상태",Google Social Account 입력,Profile Data Input Page 진입된다
+WEB,Social Sign In,Apple Social Sign In,,#NAME?,Apple Social Sign In Button 확인,1. Sign In Page 진입,Apple Social Sign In Button 출력 확인,Apple Social Sign In Button 출력된다
+WEB,Social Sign In,Apple Social Sign In,,#NAME?,Apple Social Sign In Button 기능 확인,1. Sign In Page 진입,Apple Social Sign In Button 선택,Apple Sign In POP UP 출력된다
+WEB,Social Sign In,Apple Social Sign In,Apple Sign In POP UP,#NAME?,Apple Social Sign In 기능 확인,"1. Sign In Page 진입
+2. Apple Social Sign In Button 선택
+3. SNS Linked 상태",Apple Social Account 입력,해당 계정으로 Sign in 된다
+WEB,Social Sign In,Apple Social Sign In,Apple Sign In POP UP,#NAME?,Apple Social Sign In 시 동작 확인,"1. Sign In Page 진입
+2. Apple Social Sign In Button 선택
+3. SNS Linked 상태",Apple Social Account 입력,Multi-Profile Main Page 진입된다
+WEB,Social Sign In,Apple Social Sign In,Apple Sign In POP UP,#NAME?,Apple Social Sign Up 기능 확인,"1. Sign In Page 진입
+2. Apple Social Sign In Button 선택
+3. SNS Link 되어 있지 않은 상태",Apple Social Account 입력,해당 계정으로 Sign Up 된다
+WEB,Social Sign In,Facebook Social Sign In,,#NAME?,Facebook Social Sign In Button 확인,1. Sign In Page 진입,Facebook Social Sign In Button 출력 확인,Facebook Social Sign In Button 출력된다
+WEB,Social Sign In,Facebook Social Sign In,,#NAME?,Facebook Social Sign In Button 기능 확인,1. Sign In Page 진입,Facebook Social Sign In Button 선택,Facebook Sign In POP UP 출력된다
+WEB,Social Sign In,Facebook Social Sign In,Facebook Sign In POP UP,#NAME?,Facebook Social Sign In 기능 확인,"1. Sign In Page 진입
+2. Facebook Social Sign In Button 선택
+3. SNS Linked 상태",Facebook Social Account 입력,해당 계정으로 Sign in 된다
+WEB,Social Sign In,Facebook Social Sign In,Facebook Sign In POP UP,#NAME?,Facebook Social Sign In 시 동작 확인,"1. Sign In Page 진입
+2. Facebook Social Sign In Button 선택
+3. SNS Linked 상태",Facebook Social Account 입력,Multi-Profile Main Page 진입된다
+WEB,Social Sign In,Facebook Social Sign In,Facebook Sign In POP UP,#NAME?,Facebook Social Sign Up 기능 확인,"1. Sign In Page 진입
+2. Facebook Social Sign In Button 선택
+3. SNS Link 되어 있지 않은 상태",Facebook Social Account 입력,해당 계정으로 Sign Up 된다
+WEB,Social Sign In,OnDemandKorea Social Sign In,,#NAME?,OnDemandKorea Social Sign In Button 확인,1. Sign In Page 진입,OnDemandKorea Social Sign In Button 출력 확인,OnDemandKorea Social Sign In Button 출력된다
+WEB,Social Sign In,OnDemandKorea Social Sign In,,#NAME?,OnDemandKorea Social Sign In Button 기능 확인,1. Sign In Page 진입,OnDemandKorea Social Sign In Button 선택,OnDemandKorea Sign In POP UP 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,KOCOWA logo image 확인,1. Sign Up Page 진입,KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,KOCOWA logo image 기능 확인,1. Sign Up Page 진입,KOCOWA logo image 선택,Home Main Page 진입된다
+WEB,Sign Up Page,Header Area,,#NAME?,Home Button 확인,1. Sign In Page 진입,Home Button 확인,Home Button 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,Home Button 기능 확인,1. Sign In Page 진입,Home Button 선택,Home Main Page 진입된다
+WEB,Sign Up Page,Header Area,,#NAME?,Language icon 확인,1. Sign Up Page 진입,Language icon 출력 확인,지구본 형태의 Language icon 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,Language icon Hover 시 동작 확인,1. Sign Up Page 진입,Language icon Hover,Language Dropdown Menu 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,Sign In text Button 출력 확인,1. Sign Up Page 진입,Sign In text Button 출력 확인,Sign In text Button 출력된다
+WEB,Sign Up Page,Header Area,,#NAME?,Sign In text Button 기능 확인,1. Sign Up Page 진입,Sign In text Button 선택,Sign In Page 진입된다
+WEB,Sign Up Page,Header Area,,#NAME?,Header Area 상단 Fix 확인,1. Sign Up Page 진입,Scroll Down,Header Area 상단 고정되어 출력된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,KOCOWA ID Sign Up Area 확인,1. Sign Up Page 진입,KOCOWA ID Sign Up Area 출력 확인,KOCOWA ID Sign Up Area 출력된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Social Sign Up Area 확인,1. Sign Up Page 진입,Social Sign Up Area 출력 확인,Social Sign Up Area 출력된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Terms of Use text Button 기능 확인,1. Sign Up Page 진입,Terms of Use text Button 선택,Terms of Use Page 진입된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Privacy Policy text Button 기능 확인,1. Sign Up Page 진입,Privacy Policy text Button 선택,Privacy Policy Page 진입된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Privacy Policy (Brazil) text Button 기능 확인,1. Sign Up Page 진입,Privacy Policy (Brazil) text Button 선택,Privacy Policy (Brazil) Page 진입된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Privacy Policy (Europe) text Button 기능 확인,1. Sign Up Page 진입,Privacy Policy (Europe) text Button 선택,Privacy Policy (Europe) Page 진입된다
+WEB,Sign Up Page,Sign Up Area,,#NAME?,Privacy Policy (Oceania) text Button 기능 확인,1. Sign Up Page 진입,Privacy Policy (Oceania) text Button 선택,Privacy Policy (Oceania) Page 진입된다
+WEB,KOCOWA ID Sign Up,Name Input Area,,#NAME?,input box 확인,1. Sign Up Page 진입,input box 출력 확인,input box 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,,#NAME?,text 선택 시 동작 확인,"1. Sign Up Page 진입
+2. input box 선택",text 선택,선택한 text 입력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,,#NAME?,text 입력 시 동작 확인,"1. Sign Up Page 진입
+2. input box 선택",text 입력,Placeholder 사라진다
+WEB,KOCOWA ID Sign Up,Name Input Area,,#NAME?,Backspace Button 선택 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",Backspace Button 선택,입력된 text 1글자씩 삭제된다
+WEB,KOCOWA ID Sign Up,Name Input Area,,#NAME?,text 삭제 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Placeholder 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,실시간 유효성 검사 동작 확인,"1. Sign Up Page 진입
+2. input box 선택",text 입력,입력된 text 기반으로 실시간 유효 여부 확인된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,text 미입력 시 UI 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,text 미입력 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Absence Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,Absence Error message text UI 확인,"1. Sign Up Page 진입
+2. text 입력
+3. 입력된 text 삭제",Absence Error message text 출력 확인,Absence Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,21자 이상 입력 시 UI 확인,"1. Sign Up Page 진입
+2. input box 선택",21자 이상의 Name text 입력,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,21자 이상 입력 시 동작 확인,"1. Sign Up Page 진입
+2. input box 선택",21자 이상의 Name text 입력,Limit Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,Limit Error message text UI 확인,"1. Sign Up Page 진입
+2. input box 선택
+3. 21자 이상의 Name text 입력",Limit Error message text 출력 확인,Limit Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,유효한 Name 입력 시 동작 확인,"1. Sign Up Page 진입
+2. input box 선택
+3. 21자 이상의 Name text 입력",유효한 계정 정보 입력,Error message text 사라진다
+WEB,KOCOWA ID Sign Up,Name Input Area,Validation,#NAME?,유효한 Name 입력 시 UI 확인,"1. Sign Up Page 진입
+2. input box 선택
+3. 21자 이상의 Name text 입력",유효한 계정 정보 입력,input box 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,,#NAME?,input box 확인,1. Sign Up Page 진입,input box 출력 확인,input box 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,,#NAME?,text 선택 시 동작 확인,1. Sign Up Page 진입,text 선택,선택한 text 입력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,,#NAME?,text 입력 시 동작 확인,1. Sign Up Page 진입,text 입력,Placeholder 사라진다
+WEB,KOCOWA ID Sign Up,Email Input Area,,#NAME?,Backspace Button 선택 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",Backspace Button 선택,입력된 text 1글자씩 삭제된다
+WEB,KOCOWA ID Sign Up,Email Input Area,,#NAME?,text 삭제 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Placeholder 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,실시간 유효성 검사 동작 확인,1. Sign Up Page 진입,text 입력,입력된 text 기반으로 실시간 유효 여부 확인된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,text 미입력 시 UI 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,text 미입력 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Absence Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,Absence Error message text UI 확인,"1. Sign Up Page 진입
+2. text 입력
+3. 입력된 text 삭제",Absence Error message text 출력 확인,Absence Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,At 미입력 시 동작 확인,"1. Sign Up Page 진입
+2. 계정 정보 입력","At ""@"" 특수 문자 삭제",Invalid Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,Domain 미입력 시 동작 확인,"1. Sign Up Page 진입
+2. 계정 정보 입력","Domain ""."" 특수 문자 삭제",Invalid Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,Invalid Error message text UI 확인,"1. Sign Up Page 진입
+2. 계정 정보 입력",Invalid Error message text 출력 확인,Invalid Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,유효한 Email 입력 시 동작 확인,"1. Sign Up Page 진입
+2. 계정 정보 입력",유효한 계정 정보 입력,Error message text 사라진다
+WEB,KOCOWA ID Sign Up,Email Input Area,Validation,#NAME?,유효한 Email 입력 시 UI 확인,"1. Sign Up Page 진입
+2. 계정 정보 입력",유효한 계정 정보 입력,input box 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,input box 확인,1. Sign Up Page 진입,input box 출력 확인,input box 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,text 선택 시 동작 확인,1. Sign Up Page 진입,text 선택,선택한 text 입력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,text 입력 시 동작 확인,1. Sign Up Page 진입,text 입력,Placeholder 사라진다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Password 암호화 여부 확인,1. Sign Up Page 진입,text 입력,"입력된 text ""●"" 표시로 암호화되어 출력된다"
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Backspace Button 선택 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",Backspace Button 선택,입력된 text 1글자씩 삭제된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,text 삭제 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Placeholder 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Show Password icon 확인,1. Sign Up Page 진입,Show Password icon 출력 확인,Slashed Eye 형태의 Show Password icon 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Show Password icon UI 확인,1. Sign Up Page 진입,Show Password icon 출력 확인,Show Password icon Dimmed 처리되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Show Password icon 기능 확인,"1. Sign Up Page 진입
+2. Password 입력된 상태",Show Password icon 선택,입력된 text 비암호화되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Show Password icon 선택 시 동작 확인,"1. Sign Up Page 진입
+2. Password 입력된 상태",Show Password icon 선택,Hide Password icon Toggle 동작한다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Hide Password icon 확인,"1. Sign Up Page 진입
+2. Show Password icon 선택",Hide Password icon 출력 확인,Eye 형태의 Hide Password icon 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Hide Password icon UI 확인,"1. Sign Up Page 진입
+2. Show Password icon 선택",Hide Password icon 출력 확인,Hide Password icon 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Hide Password icon 기능 확인,"1. Sign Up Page 진입
+2. Password 입력
+3. Show Password icon 선택",Hide Password icon 선택,입력된 text 암호화되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,,#NAME?,Hide Password icon 선택 시 동작 확인,"1. Sign Up Page 진입
+2. Password 입력
+3. Show Password icon 선택",Hide Password icon 선택,Show Password icon Toggle 동작한다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,실시간 유효성 검사 동작 확인,1. Sign Up Page 진입,text 입력,입력된 text 기반으로 실시간 유효 여부 확인된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,text 미입력 시 UI 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,input box 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,text 미입력 시 동작 확인,"1. Sign Up Page 진입
+2. text 입력",입력된 text 삭제,Absence Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,Absence Error message text UI 확인,"1. Sign Up Page 진입
+2. text 입력
+3. 입력된 text 삭제",Absence Error message text 출력 확인,Absence Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,6자 미만 입력 시 동작 확인,1. Sign Up Page 진입,6자 미만 입력,Minimum Limit Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,21자 이상 입력 시 동작 확인,1. Sign Up Page 진입,21자 이상 입력,Maximum Limit Error message text 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,Minimum Limit Error message text UI 확인,"1. Sign Up Page 진입
+2. 6자 미만 입력",Invalid Error message text 출력 확인,Minimum Limit Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,Maximum Limit Error message text UI 확인,"1. Sign Up Page 진입
+2. 21자 이상 입력",Invalid Error message text 출력 확인,Maximum Limit Error message text 빨간색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,유효한 Password 입력 시 동작 확인,1. Sign Up Page 진입,유효한 암호 입력,Error message text 사라진다
+WEB,KOCOWA ID Sign Up,Password Input Area,Validation,#NAME?,유효한 Password 입력 시 UI 확인,1. Sign Up Page 진입,유효한 암호 입력,input box 흰색으로 강조되어 출력된다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,Next Button 선택 시 동작 확인,1. Sign Up Page 진입,Next Button 선택,계정 정보 유효성 검사 동작한다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,계정 정보 미입력 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. 유효하지 않은 Email 정보 입력
+3. 유효한 Password 입력",Next Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,Name 미입력 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 Email 정보 입력
+3. 유효한 Password 입력
+4. Name 입력되지 않은 상태",Next Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,비유효 Email 입력 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. Name 입력
+3. 유효하지 않은 Email 정보 입력
+4. 유효한 Password 입력",Next Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,비유효 Passwrod 입력 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. Name 입력
+3. 유효한 Email 정보 입력
+4. 유효하지 않은 Password 입력",Next Button 선택,동작하지 않는다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,가입 KOCOWA 계정 Password 미일치 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. 가입된 KOCOWA 계정 Email 입력
+3. 해당 계정 Password 미일치 입력",Next Button 선택,Already Registered POP UP 출력된다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,Social Account 입력 시 Next Button 기능 확인,"1. Sign Up Page 진입
+2. Social Account 정보 입력
+3. SNS Linked 상태
+4. 해당 계정 Password 미일치 입력",Next Button 선택,SNS LINK POP UP 출력된다
+WEB,KOCOWA ID Sign Up,Function Area,Next Button,#NAME?,Next Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력",Next Button 선택,Profile Data Input Page 진입된다
+WEB,Profile Data Input Page,Gender Area,,#NAME?,Radio Button 선택 시 UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Radio Button 선택,선택한 Radio Button 흰색 Check icon 출력된다
+WEB,Profile Data Input Page,Gender Area,,#NAME?,Radio Button 선택 시 동작 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Radio Button 선택,선택하지 않은 Radio Button Blank 처리되어 출력된다
+WEB,Profile Data Input Page,Birthday Area,,#NAME?,Dropdown Box 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Dropdown Box 출력 확인,Dropdown Box 출력된다
+WEB,Profile Data Input Page,Birthday Area,,#NAME?,Default Setting 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Default Setting 적용 확인,Birthday Setting 미적용되어 출력된다
+WEB,Profile Data Input Page,Birthday Area,,#NAME?,Dropdown Box 선택 시 UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Dropdown Box 선택,위 방향 화살표 형태의 Upward Arrow icon 출력된다
+WEB,Profile Data Input Page,Birthday Area,,#NAME?,Dropdown Box 선택 시 동작 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Dropdown Box 선택,Dropdown Menu List 출력된다
+WEB,Profile Data Input Page,Birthday Area,Date Subject,#NAME?,Placeholder 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Placeholder 출력 확인,"""DD"" Placeholder 출력된다"
+WEB,Profile Data Input Page,Birthday Area,Month Subject,#NAME?,Placeholder 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Placeholder 출력 확인,"""MM"" Placeholder 출력된다"
+WEB,Profile Data Input Page,Birthday Area,Year Subject,#NAME?,Placeholder 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Placeholder 출력 확인,"""YYYY"" Placeholder 출력된다"
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Agreement Area 출력 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Agreement Area 출력 확인,체크박스와 Text 있는 agreement Area 출력된다
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Default Setting 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Check Box 확인,Check box 에 Check icon 없다
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Text Default Setting 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",text 확인,text 회색으로 비활성화되어 출력된다
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Check Box 선택 시 UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Check Box 선택,선택한 Check Box 흰색 Check icon 출력된다
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Check Box 선택 시 text UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Check Box 선택,Text 흰색으로 활성화되어 출력된다
+WEB,Profile Data Input Page,Agreement Area,,#NAME?,Text 출력 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택",Text 출력 확인,"""The service is only available for those aged 18 and above, and I agree to the terms of service for KOCOWA+"" text 출력된다"
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Agreement 미선택 시 Confirm Button UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Gender 선택
+5. Birthday 입력
+6. Agreement 미선택",Confirm Button 출력 확인,Confirm Button Dimmed 처리되어 출력된다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Gender 미선택 시 Confirm Button UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Gender 미선택
+5. Birthday 입력
+6. Agreement 선택",Confirm Button 출력 확인,Confirm Button Dimmed 처리되어 출력된다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Birthdate 미선택 시 Confirm Button UI 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Gender 선택
+5. Birthday 미입력
+6. Agreement 선택",Confirm Button 출력 확인,Confirm Button Dimmed 처리되어 출력된다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Under 18 Birthdate Profile Data 입력 시 Confirm Button 기능 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Under 18 Birthday 값 입력",Confirm Button 선택,동작하지 않는다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Under 18 Birthdate Profile Data 입력 시 Error text 출력 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Under 18 Birthday 값 입력",Confirm Button 선택,"""The service is only available for those aged 18 and above.""
+text 출력된다"
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Dimmed Confirm Button 기능 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. Profile Data 입력 완료되지 않은 상태",Confirm Button 선택,동작하지 않는다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Confirm Button 기능 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력",Confirm Button 선택,Email Verification Page 이동한다
+WEB,Profile Data Input Page,Confirm Button,,#NAME?,Account Profile Data 적용 확인,"1. Sign Up Page 진입
+2. KOCOWA Account Data 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택
+6. Account Page 진입",Profile Data 확인,User Set Profile Data 적용된다
+WEB,Email Verification Page,Header Area,KOCOWA logo,,KOCOWA logo image 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Email Verification Page,Header Area,KOCOWA logo,,KOCOWA logo image 기능 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",KOCOWA logo image 선택,Multi-profile Main page 진입한다
+WEB,Email Verification Page,Header Area,Edit Profile,,Edit Profile button 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Edit Profile button 출력 확인,Edit Profile button 출력된다
+WEB,Email Verification Page,Header Area,Edit Profile,,Edit Profile button stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Edit Profile button 출력 확인,"Edit Profile
+text 출력된다"
+WEB,Email Verification Page,Header Area,Edit Profile,,Edit Profile button 출력 여부 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Edit Profile button 출력 여부 확인,Edit Profile button 출력되지 않는다
+WEB,Email Verification Page,Header Area,Edit Profile,,해상도 320 이하일 시 Edit Profile button 출력 여부 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택
+5. 해상도 320이하인 상태",Edit Profile button 출력 확인,Edit Profile button 출력되지 않는다
+WEB,Email Verification Page,Header Area,Sign Out,,Sign Out button 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Sign Out button 출력 확인,Sign Out button 출력된다
+WEB,Email Verification Page,Header Area,Sign Out,,Sign Out button stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Sign Out button 출력 확인,"Sign Out
+text 출력된다"
+WEB,Email Verification Page,Header Area,Sign Out,,Sign Out button 기능 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Sign Out button 선택,Sign Out 진행된다
+WEB,Email Verification Page,Top Area,,,Rectangle 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Rectangle 출력 확인,Grey Colored Rectangle 출력된다
+WEB,Email Verification Page,Top Area,,,해상도 768 이하일 시 Grey Rectangle 출력 여부 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택
+5. 해상도 768이하인 상태",Rectangle 출력 확인,Grey Colored Rectangle 출력되지 않는다
+WEB,Email Verification Page,Top Area,,,Message icon 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Message icon 출력 확인,Message icon 출력된다
+WEB,Email Verification Page,Top Area,title text,,title text 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",title text 출력 확인,title text 출력된다
+WEB,Email Verification Page,Top Area,title text,,title text stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",title text 출력 확인,"Email Verification 
+text 출력된다"
+WEB,Email Verification Page,Inform Area,,,Framework 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Framework 출력 확인,Framework 출력된다
+WEB,Email Verification Page,Inform Area,,,해상도 768 이하일 시 Framework UI 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택
+5. 해상도 768이하인 상태",Framework 출력 확인,Framework dimmed 처리되어 출력된다
+WEB,Email Verification Page,Inform Area,sub text,,sub text 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",sub text 출력 확인,sub text 출력된다
+WEB,Email Verification Page,Inform Area,sub text,,sub text stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",sub text 출력 확인,"A verification email has been sent to
+(User Email)
+text 출력된다"
+WEB,Email Verification Page,Inform Area,sub text,,User Email 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",User Email 출력 확인,User Email 강조되어 출력된다
+WEB,Email Verification Page,Guidance Area,1st Guidance text,,1st Guidance text 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",1st Guidance text 출력 확인,1st Guidance text 출력된다
+WEB,Email Verification Page,Guidance Area,1st Guidance text,,1st Guidance text stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",1st Guidance text 출력 확인,"Please check your inbox and follow the link to complete your registration.
+text 출력된다"
+WEB,Email Verification Page,Guidance Area,2nd Guidance text,,2nd Guidance text 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",2nd Guidance text 출력 확인,2nd Guidance text 출력된다
+WEB,Email Verification Page,Guidance Area,2nd Guidance text,,2nd Guidance text stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",2nd Guidance text 출력 확인,"If you did not get any mail,
+text 출력된다"
+WEB,Email Verification Page,Guidance Area,Resend verification mail Button,,Cool Down 시 Resend verification mail Button UI 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택
+5. Verify Email Retry 대기 중인 상태",Resend verification mail Button 출력 확인,Resend verification mail Button Dimmed 처리되어 출력된다
+WEB,Email Verification Page,Guidance Area,Resend verification mail Button,,Resend verification mail Button 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Resend verification mail Button 출력 확인,Resend verification mail Button 출력된다
+WEB,Email Verification Page,Guidance Area,Resend verification mail Button,,Resend verification mail stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Resend verification mail Button 출력 확인,"Resend verification mail 
+text 출력된다"
+WEB,Email Verification Page,Guidance Area,Resend verification mail Button,,Resend verification mail Button UI 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Resend verification mail text 확인,Underline 처리된 Resend verification mail 강조되어 출력된다
+WEB,Email Verification Page,Guidance Area,Resend verification mail Button,,Resend verification mail Button 기능 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Resend verification mail Button 선택,General Rule 따라서 동작한다
+WEB,Email Verification Page,Guidance Area,3rd Guidance text,,3rd Guidance text 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",3rd Guidance text 출력 확인,3rd Guidance text 출력된다
+WEB,Email Verification Page,Guidance Area,3rd Guidance text,,3rd Guidance text stringset 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",3rd Guidance text 출력 확인,"If you have any other questions, please reach out to our Help Center.
+text 출력된다"
+WEB,Email Verification Page,Guidance Area,3rd Guidance text,,3rd Guidance text UI 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",3rd Guidance text 출력 확인,3rd Guidance text dimmed 처리되어 출력된다
+WEB,Email Verification Page,Verify Email,,,Email Verify 완료 시 동작 확인,"1. Sign Up Page 진입
+2. Profile Data Input Page 진입
+3. 유효한 Profile Data 입력
+4. Confirm button 선택",Email Verify 절차 완료,Welcome To KOCOWA Page 진입된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,KOCOWA logo image 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,KOCOWA logo image 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",KOCOWA logo image 선택,Multi-Profile Main Page 진입된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,Home text Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Home text Button 선택,Multi-Profile Main Page 진입된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,Language icon 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Language icon 출력 확인,지구본 형태의 Language icon 출력된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,Language icon Hover 시 동작 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Language icon Hover,Language Dropdown Menu 출력된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,Sign Out text Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Sign Out text Button 선택,Sign Out POP UP 출력된다
+WEB,Welcome To KOCOWA Page,Header Area,,#NAME?,Header Area 상단 Fix 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Scroll Down,Header Area 상단 고정되어 출력된다
+WEB,Welcome To KOCOWA Page,User Data Area,,#NAME?,Background image 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Background image 출력 확인,Background image 출력된다
+WEB,Welcome To KOCOWA Page,User Data Area,,#NAME?,User Email Address 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",User Email Address 출력 확인,User Email Address 출력된다
+WEB,Welcome To KOCOWA Page,User Data Area,,#NAME?,SUBSCRIBE Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",SUBSCRIBE Button 선택,PLAN Page 진입된다
+WEB,Welcome To KOCOWA Page,User Data Area,,#NAME?,Service Home text Button 기능 확인,"1. Sign Up Page 진입
+2. 유효한 계정 정보 입력
+3. Next Button 선택
+4. 유효한 Profile Data 입력
+5. Confirm Button 선택",Service Home text Button 선택,Multi-Profile Main Page 진입된다
+WEB,Category List Area,Header Area,,#NAME?,Switch Button 출력 확인,"1. PLAN Page 진입
+2. Promotion Event 적용 중인 경우",Switch Button 출력 확인,결제 Switch Button 출력된다
+WEB,Category List Area,Header Area,,#NAME?,Standard 출력 확인,"1. PLAN Page 진입
+2. Promotion Event 적용 중인 경우",Standard 출력 확인,Standard 출력된다
+WEB,Category List Area,Header Area,,#NAME?,Standard 기능 확인,"1. PLAN Page 진입
+2. Promotion Event 적용 중인 경우",Standard Switch 선택,Standard 로 결제 상품 출력된다
+WEB,Category List Area,Header Area,,#NAME?,Promotion 출력 확인,"1. PLAN Page 진입
+2. Promotion Event 적용 중인 경우",Promotion 출력 확인,Promotion 출력된다
+WEB,Category List Area,Header Area,,#NAME?,Promotion 기능 확인,"1. PLAN Page 진입
+2. Promotion Event 적용 중인 경우",Promotion Switch 선택,Promotion 로 결제 상품 출력된다
+WEB,Subscribe Page,Top Area,,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Top Area,,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,"""Subscribe"" text 출력된다"
+WEB,Subscribe Page,Top Area,,,Division Line 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Division Line 출력 확인,구분선 형태의 Division Line 출력된다
+WEB,Subscribe Page,Select your Plan Area,,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Select your Plan Area,,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,"""Select your Plan"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,,,sub text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,sub text 출력된다
+WEB,Subscribe Page,Select your Plan Area,,,sub text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,"""Subscribe to get priority access to over 40,000 hours of the best Korean Dramas,
+TV Shows, Movies, and Webcomics with premium subtitles."" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,Rectangle 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Rectangle 출력 확인,Grey Colored Rectangle 출력된다
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,type icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",type icon 확인,type icon 확인
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,type icon stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",type icon 확인,"""Unlimited contents"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,"""Basic"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,sub text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,sub text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Basic Subscription Section,,sub text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,"""Enjoy your favorite shows at the best price!"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,Rectangle 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Rectangle 출력 확인,Grey Colored Rectangle 출력된다
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,type icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",type icon 확인,type icon 확인
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,type icon stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",type icon 확인,"""Download & Offline Playback"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,"""Premium"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,sub text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,sub text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Premium Subscription Section,,sub text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",sub text 출력 확인,"""Stream on up to 4 devices - Perfect for families!"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Bullet Point 확인,1. Subscribe Page 진입,Bullet Point 출력 확인,Bullet Point 출력된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Guideline Information text 확인,1. Subscribe Page 진입,Guideline Information text 출력 확인,Guideline Information text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Guideline Information text stringset 확인,1. Subscribe Page 진입,Guideline Information text 출력 확인,"""Guideline for the Upgrade Plan & Downgrade Plan"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Guideline text Button 선택 시 동작 확인,1. Subscribe Page 진입,Guideline text Button 선택,How to upgrade your subscription Article 진입된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Guideline text Button 기능 확인,1. Subscribe Page 진입,Guideline text Button 선택,Help Center Page 진입된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Coupon Information text 확인,1. Subscribe Page 진입,Coupon Information text 출력 확인,Coupon Information text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Coupon Information text stringset 확인,1. Subscribe Page 진입,Coupon Information text 출력 확인,"""Coupons are available for use at the checkout stage."" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Coupon Information text 출력 여부 확인,"1. Subscribe Page 진입
+2. 미로그인 상태",Coupon Information text 출력 확인,Coupon Information text 출력되지 않는다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,Premium Pass Information text 확인,1. Subscribe Page 진입,Premium Pass Information text 출력 확인,"""The Premium Pass is available for use here"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Information Section,,here text Button 확인,1. Subscribe Page 진입,here text Button 출력 확인,here text Button 출력된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,here text Button stringset 확인,1. Subscribe Page 진입,here text Button 출력 확인,"""here"" text 출력된다"
+WEB,Subscribe Page,Select your Plan Area,Information Section,,here text Button 기능 확인,1. Subscribe Page 진입,here text Button 선택,Premium Pass Page 진입된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,free trial Inform text 확인,1. Subscribe Page 진입,free trial Inform text 출력 확인,free trial Inform text 출력된다
+WEB,Subscribe Page,Select your Plan Area,Information Section,,free trial Inform text stringset 확인,1. Subscribe Page 진입,free trial Inform text 출력 확인,"After the free trial ends, it will automatically convert to a paid subscription. If you cancel your subscription before the end of free trial, you won't be charged with any fees. text 출력된다."
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Face icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Face icon 출력 확인,Face icon 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Single Profile text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Single Profile text 출력 확인,Single Profile text 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Single Profile text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Single Profile text 출력 확인,"""Single Profile"" text 출력된다"
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Recycle icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Recycle icon 출력 확인,Recycle icon 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Auto Renewal text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Auto Renewal text 출력 확인,Auto Renewal text 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Auto Renewal text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Auto Renewal text 출력 확인,"""Hassle-Free Automatic Renewal"" text 출력된다"
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Bolt icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Bolt icon 출력 확인,Bolt icon 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Unlimited content text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Unlimited content text 출력 확인,Unlimited content text 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Unlimited content text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Unlimited content text 출력 확인,"""Unlimited Dramas, TV Shows, and Webcomics"" text 출력된다"
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Monitor icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Monitor icon 출력 확인,Monitor icon 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Advertisement text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Advertisement text 출력 확인,Advertisement text 출력된다
+WEB,Subscribe Page,Basic Subscription Section,Benefit Guidance Section,,Advertisement text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Advertisement text 출력 확인,"""Select Countries May Experience Brief Ads Before Programs Begin"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Rectangle 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Rectangle 출력 확인,Grey Colored Rectangle 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",title text 출력 확인,"""Monthly"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Currency 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Currency 출력 확인,Currency 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,User Currency 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Currency 출력 확인,User 국가 설정에 따른 Currency 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Price 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Price 출력 확인,Price 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,User Price 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Price 출력 확인,User 국가 설정에 따른 Price 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Per-Unit text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Per-Unit text 출력 확인,"""/mo"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Division Line 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Division Line 출력 확인,구분선 형태의 Division Line 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Benefit guidance text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Benefit guidance text 출력 확인,"""14-day Free Trial (Once per account)"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Benefit guidance text 출력 여부 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. Premium Monthly Subscription 구독 중인 상태",Benefit guidance text 출력 확인,Benefit guidance text 출력되지 않는다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Subscribed text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. Premium Monthly Subscription 구독 중인 상태",Subscribed text 출력 확인,Subscribed text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Subscribed text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. Premium Monthly Subscription 구독 중인 상태",Subscribed text 출력 확인,"""Your Plan"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,미로그인 시 Subscription item 기능 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. 미로그인 상태",Subscription item 선택,Sign In Page 진입된다
+WEB,Subscribe Page,Premium Subscription Section,Monthly Subscription item,,Subscription item 기능 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Subscription item 선택,Checkout Page 진입된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Monitor icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Monitor icon 출력 확인,Monitor icon 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Advertisement Benefit text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Advertisement Benefit text 출력 확인,Advertisement Benefit text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Advertisement Benefit text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Advertisement Benefit text 출력 확인,"""No Ads"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Face icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Face icon 출력 확인,Face icon 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Profile Benefit text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Profile Benefit text 출력 확인,Profile Benefit text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Profile Benefit text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Profile Benefit text 출력 확인,"""Four Profiles"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Recycle icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Recycle icon 출력 확인,Recycle icon 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Auto Renewal text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Auto Renewal text 출력 확인,Auto Renewal text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Auto Renewal text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Auto Renewal text 출력 확인,"""Hassle-Free Automatic Renewal"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Downward Arrow icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Downward Arrow icon 출력 확인,Downward Arrow icon 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Download content text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Download content text 출력 확인,Download content text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Download content text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Download content text 출력 확인,"""Download & Offline Playback"" text 출력된다"
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Bolt icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Bolt icon 출력 확인,Bolt icon 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Unlimited content text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Unlimited content text 출력 확인,Unlimited content text 출력된다
+WEB,Subscribe Page,Premium Subscription Section,Benefit Guidance Section,,Unlimited content text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Unlimited content text 출력 확인,"""Unlimited Dramas, TV Shows, and Webcomics"" text 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,,,title text 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,,,title text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",title text 출력 확인,"""Why Choose KOCOWA+ Service?"" 
+Text 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,"Exclusive
+Korean Drama & Movies Component",,"Exclusive
+Korean Drama & Movies icon 출력 확인","1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,슬레이트 icon이 출력된다.
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,"Exclusive
+Korean Drama & Movies Component",,"Exclusive
+Korean Drama & Movies title Text stringset 출력 확인","1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Exclusive
+Korean Drama & Movies
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,"Exclusive
+Korean Drama & Movies Component",,"Exclusive
+Korean Drama & Movies Sub Text stringset 출력 확인","1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Watch top-rated K-dramas and movies, only 
+available here!
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Multi-Language Subtitles Component,,Multi-Language Subtitles icon 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,지구본 형태의 language icon이 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Multi-Language Subtitles Component,,Multi-Language Subtitles title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Multi-Language Subtitles
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Multi-Language Subtitles Component,,Multi-Language Subtitles Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Enjoy content in your preferred language with high-quality subtitles.
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Fast & Seamless Streaming Component,,Fast & Seamless Streaming icon 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,24 시계 icon이 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Fast & Seamless Streaming Component,,Fast & Seamless Streaming title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Fast & Seamless Streaming
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Fast & Seamless Streaming Component,,Fast & Seamless Streaming Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"No buffering! High-speed streaming for the best viewing experience.
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Cross-Device Sync Component,,Cross-Device Sync icon 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,모니터 icon이 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Cross-Device Sync Component,,Cross-Device Sync title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Cross-Device Sync
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Cross-Device Sync Component,,Cross-Device Sync Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Start on one device and continue on another seamlessly.
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Flexible Plan & Easy Component,,Flexible Plan & Easy icon 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,Recycle icon이 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Flexible Plan & Easy Component,,Flexible Plan & Easy title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Flexible Plan & Easy
+Cancellation
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Flexible Plan & Easy Component,,Flexible Plan & Easy Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Upgrade, downgrade, or cancle anytime- no hidden 
+fees!
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Exclusive Discounts for Annual Plans Component,,Exclusive Discounts for Annual Plans icon 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",icon 출력 확인,Bolt icon이 출력된다
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Exclusive Discounts for Annual Plans Component,,Exclusive Discounts for Annual Plans title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"Exclusive Discounts for Annual 
+Plans
+Text가 출력된다"
+WEB,Subscribe Page,Why Choose KOCOWA+ Service? Area,Exclusive Discounts for Annual Plans Component,,Exclusive Discounts for Annual Plans Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Save more when you choose our yearly plan!
+Text가 출력된다"
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,,,title Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",Title text 출력 확인,"KOCOWA+ for Your Enjoyment
+Text가 출력된다"
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,,,Sub Text stringset 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",sub text 출력 확인,"Enjoy Unlimited Access to Over 40,000 Hours of K-content!
+New K-Drama & Shows Added Daily and Weekly!
+Text가 출력된다"
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",content Rail 출력 확인,content Rail이 출력된다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 최대 개수 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",content Component 출력 확인,content Component 최대 18개 출력된다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 우측 Indicator 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태
+4. content Rail Mouse Hover",Indicator icon 출력 확인,우측 꺽쇠 형태의 Indicator icon 출력된다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 우측 Indicator 동작 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태
+4. content Rail Mouse Hover",Indicator icon 동작 확인,우측으로 Scrolling 동작한다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 우측 Indicator 미출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태",Indicator icon 미출력 확인,Right Indicator icon 출력되지 않는다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 좌측 Indicator 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태
+4. content Rail Mouse Hover",Indicator icon 출력 확인,좌측 꺽쇠 형태의 Indicator icon 출력된다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 좌측 Indicator 동작 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태
+4. content Rail Mouse Hover",Indicator icon 동작 확인,좌측으로 Scrolling 동작한다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,content Component 좌측 Indicator 미출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 해상도 768 이상 적용 중인 상태",Indicator icon 미출력 확인,Left Indicator icon 출력되지 않는다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,우측 외부 content Component 출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",우측 외부 content Component 출력 확인,우측 외부 content Component가 가려진채 출력된다
+WEB,Subscribe Page,KOCOWA+ for Your Enjoyment Area,content Rail,,우측 외부 content Component 미출력 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입
+3. 우측으로 Scrolling 끝까지 진행한 상태",우측 외부 content Component 미출력 확인,우측 외부 content Component가 출력되지 않는다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content poster image 확인,"1. KOCOWA Webpage 진입
+2. Subscription Page 진입",poster image 출력 확인,poster image 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,poster image Hover 시 동작 확인,1. KOCOWA Webpage 진입 Page 진입,poster image Hover,poster image Darken 적용된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,poster image 기능 확인,1. KOCOWA Webpage 진입 Page 진입,poster image 선택,해당 content Series Detailed Page 진입된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content Name text 확인,1. KOCOWA Webpage 진입 Page 진입,content Name text 출력 확인,content Name text 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content Name text 생략 확인,"1. KOCOWA Webpage 진입 Page 진입
+2. 장문의 content Name text 편성된 상태",content Name text 출력 확인,content Name text 말줄임표로 생략되어 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content Name text 기능 확인,1. KOCOWA Webpage 진입 Page 진입,content Component 선택,해당 content Series Detailed Page 진입된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Default Setting 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Default Setting 적용 확인,Favorites 미등록 상태로 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Favorite Button 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Favorite Button 출력 확인,Empty Star 형태의 Favorite Button 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,미로그인 시 Favorite icon 기능 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Favorite Button 선택,Sign In Page 진입된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Favorite Button 선택 시 동작 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Favorite Button 선택,Bookmarked Button 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Favorite Button 기능 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Favorite Button 선택,해당 content Favorites List 등록된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Bookmarked Button 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover
+4. Favorite Button 선택",Bookmarked Button 출력 확인,Colored Star 형태의 Bookmarked Button 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Bookmarked Button 선택 시 동작 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover
+4. Favorite Button 선택",Bookmarked Button 선택,Favorite Button 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Bookmarked Button 기능 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover
+4. Favorite Button 선택",Bookmarked Button 선택,해당 content Favorites List 해제된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Genre text 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hover",Genre text 출력 확인,Genre text 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,Subtitle text 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hove
+4. 1개 이상의 Subtitle 편성된 상태 상태",Subtitle text 출력 확인,"""Subtitles"" text 출력된다"
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content Subtitle 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hove",content Subtitle 출력 확인,해당 content Subtitle 출력된다
+WEB,Subscribe Page,"KOCOWA+ for Your Enjoyment 
+Section",content Component,,content Subtitle stringset 국가별 확인,"1. Channel Page 진입
+2. Series Detailed Page 진입
+3. Mouse Hove",content Subtitle 출력 확인,Subtitle 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,,,Upgrade for a Better Experience! Area 출력 여부 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 불가능한 상태",Upgrade for a Better Experience! Area 출력 확인,Upgrade for a Better Experience! Area 출력되지 않는다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,,,Upgrade for a Better Experience! Area 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade for a Better Experience! Area 출력 확인,Upgrade for a Better Experience! Area 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,,,title text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,,,title text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,"""Upgrade for a Better Experience!"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Current Plan Section,,Rectangle 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Rectangle 출력 확인,Rectangle 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Current Plan Section,,title text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Current Plan Section,,title text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,"""Current Your Plan : {User Subscription item}"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Current Plan Section,,User Subscription 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",User Subscription  출력 확인,User Subscription 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Rectangle 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Rectangle 출력 확인,Rectangle 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,title text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,title text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,"""Premium Monthly Plan"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Price text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price text 출력 확인,Price text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Currency 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Currency 출력 확인,Currency 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,User Currency 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Currency 출력 확인,User 국가 설정에 따른 Currency 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Price 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price 출력 확인,Price 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,User Price 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price 출력 확인,User 국가 설정에 따른 Price 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Subscription Currency Code 확인,1. Subscirbe Page 진입,Currency Code 출력 확인,Currency Code 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Target Subscription Currency Code 확인,1. Subscirbe Page 진입,Currency Code 출력 확인,User Selected Subscription item Currency Code 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Per-Unit text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Per-Unit text 출력 확인,"""/mo"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Upgrade Now Button 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 출력 확인,Upgrade Now Button 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Upgrade Now Button stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 출력 확인,"""Upgrade Now!"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Upgrade Now Button 기능 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 선택,Checkout Page 진입된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Division Line 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Division Line 출력 확인,구분선 형태의 Division Line 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Compare inform text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Compare inform text 출력 확인,Compare inform text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Compare inform text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Compare inform text 출력 확인,"""Compared to Basic Plan:"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Delimiter 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태
+3. 해상도 1024 이상 적용된 상태",Delimiter 출력 확인,세로 구분선 형태의 Delimiter 노촐된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Delimiter 출력 여부 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태
+3. 해상도 768 이하 적용된 상태",Delimiter 출력 확인,세로 구분선 형태의 Delimiter 노촐되지 않는다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Monitor icon 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Monitor icon 출력 확인,Monitor icon 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Advertisement Benefit text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Advertisement Benefit text 출력 확인,Advertisement Benefit text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Advertisement Benefit text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Advertisement Benefit text 출력 확인,"""Watch Ad-Free"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Downward Arrow icon 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Downward Arrow icon 출력 확인,Downward Arrow icon 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Download content text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Download content text 출력 확인,Download content text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Download content text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Download content text 출력 확인,"""Download & Watch Offline"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Face icon 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Face icon 출력 확인,Face icon 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Profile Benefit text 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Profile Benefit text 출력 확인,Profile Benefit text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Profile Benefit text stringset 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입",Profile Benefit text 출력 확인,"""Up to 4 Profiles"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Basic Annual 계정 Premioum Monthly Section 출력 여부 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. Basic Annual Subscription 구독 중인 상태",Premioum Monthly Section 출력 확인,Premioum Monthly Section 출력되지 않는다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Monthly Section,,Premioum Monthly Section 출력 여부 확인,"1. KOCOWA Webpage 진입
+2. Subscribe Page 진입
+3. Premium Monthly Subscription 구독 중인 상태",Premioum Monthly Section 출력 확인,Premioum Monthly Section 출력되지 않는다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Rectangle 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Rectangle 출력 확인,Rectangle 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,title text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,title text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,title text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",title text 출력 확인,"""Premium Annual Plan"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Price text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price text 출력 확인,Price text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Currency 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Currency 출력 확인,Currency 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,User Currency 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Currency 출력 확인,User 국가 설정에 따른 Currency 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Price 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price 출력 확인,Price 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,User Price 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Price 출력 확인,User 국가 설정에 따른 Price 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Subscription Currency Code 확인,1. Subscirbe Page 진입,Currency Code 출력 확인,Currency Code 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Target Subscription Currency Code 확인,1. Subscirbe Page 진입,Currency Code 출력 확인,User Selected Subscription item Currency Code 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Per-Unit text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Per-Unit text 출력 확인,"""/yr"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Upgrade Now Button 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 출력 확인,Upgrade Now Button 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Upgrade Now Button stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 출력 확인,"""Upgrade Now!"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Upgrade Now Button 기능 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Upgrade Now Button 선택,Checkout Page 진입된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Division Line 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Division Line 출력 확인,구분선 형태의 Division Line 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Compare inform text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Compare inform text 출력 확인,Compare inform text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Compare inform text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Compare inform text 출력 확인,"""Compared to Premium Monthly Plan:"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Delimiter 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태
+3. 해상도 1024 이상 적용된 상태",Delimiter 출력 확인,세로 구분선 형태의 Delimiter 노촐된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Delimiter 출력 여부 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태
+3. 해상도 768 이하 적용된 상태",Delimiter 출력 확인,세로 구분선 형태의 Delimiter 노촐되지 않는다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Bolt icon 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Bolt icon 출력 확인,Bolt icon 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Discount Benefit text 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Discount text 출력 확인,Discount text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Premium Annual Section,,Discount Benefit text stringset 확인,"1. Subscirbe Page 진입
+2. Subscription Upgrade 가능한 상태",Discount Benefit text 출력 확인,"""Save about 16.6% with the Annual Plan!"" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Information Section,,Bullet Point 확인,1. Subscribe Page 진입,Bullet Point 출력 확인,Bullet Point 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Information Section,,Check Guidance text 확인,1. Subscribe Page 진입,Check Guidance text 출력 확인,Check Guidance text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Information Section,,Check Guidance text stringset 확인,1. Subscribe Page 진입,Check Guidance text 출력 확인,"""Please check the details of each plan below."" text 출력된다"
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Information Section,,Platform Guidance text 확인,1. Subscribe Page 진입,Platform Guidance text 출력 확인,Platform Guidance text 출력된다
+WEB,Subscribe Page,Upgrade for a Better Experience! Area,Information Section,,Platform Guidance text stringset 확인,1. Subscribe Page 진입,Platform Guidance text 출력 확인,"""If you purchased from another platform, you must upgrade your plan through that platform."" text 출력된다"
+WEB,Checkout Page,,,#NAME?,KOCOWA logo image 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Checkout Page,,,#NAME?,Back icon 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",Back icon 출력 확인,Left Arrow 형태의 Back icon 출력된다
+WEB,Checkout Page,,,#NAME?,Back icon 기능 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",Back icon 선택,이전 화면으로 이동한다
+WEB,Checkout Page,Payment Summary Area,,#NAME?,title text 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",title text 출력 확인,"""PAYMENT SUMMARY"" text 출력된다"
+WEB,Checkout Page,Billing Information Area,,#NAME?,Credit Card image 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",Credit Card image 출력 확인,Card 형태의 Credit Card image 출력된다
+WEB,Checkout Page,Billing Information Area,,#NAME?,Credit Card image 기능 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",Credit Card image 선택,Cards Area 출력된다
+WEB,Checkout Page,Billing Information Area,,#NAME?,Default Setting 확인,"1. KOCOWA 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택",Default Setting 적용 확인,Cards Area 출력된다
+WEB,Checkout Page,Bottom Area,,#NAME?,View Terms text Button 확인,"1. PLAN Page 진입
+2. Subscription item 선택",View Terms text Button 출력 확인,"""View Terms"" text Button 출력된다"
+WEB,Checkout Page,Bottom Area,,#NAME?,View Terms text Button 기능 확인,"1. PLAN Page 진입
+2. Subscription item 선택",View Terms text Button 선택,Terms of Use Page 진입된다
+WEB,Subscription Purchasing,Email List,KOCOWA Payment Receipt,#NAME?,KOCOWA Payment Receipt Email 수신 여부 확인,"1. 미결제 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택
+4. 결제 절차 진행 완료
+5. Free-Trial 적용된 상태",Email box 확인,KOCOWA Payment Receipt Email 수신되지 않는다
+WEB,Subscription Purchasing,Email List,KOCOWA Payment Receipt,#NAME?,KOCOWA Payment Receipt Email 수신 확인,"1. 미결제 계정 Sign in
+2. PLAN Page 진입
+3. Subscription item 선택
+4. 결제 절차 진행 완료",Email box 확인,KOCOWA Payment Receipt Email 수신된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,content Name 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",content Name 출력 확인,content 명 text 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,content Episode Numbering 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",content Episode Numbering 출력 확인,Episode Numbering 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,재생 화면 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 확인,영상 자막 정상 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,재생 바 영역 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 Hover,재생 바가 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,재생 바 조작 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",재생 바 조작 시도,조작한 영상 시간대로 영상 재생 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Thumbnail 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",재생 바 조작 시도,Time marker 위치한 시간대의 Thumbnail 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Pause Button UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 Hover,Pause Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Pause Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",Pause Button 선택,영상 일시 정지된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Pause Button 선택 시 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",Pause Button 선택,Play Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Play Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",Play Button 선택,영상 재생 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Play Button 선택 시 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",Play Button 선택,Pause Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,15Sec Forword Button UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 Hover,15Sec Forword Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,15Sec Rewind Button UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 Hover,15Sec Rewind Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,15Sec Forword Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",15Sec Forword Button 선택,15초 후로 영상 재생 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,15Sec Rewind Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 플레이 화면 Hover 상태",15Sec Rewind Button 선택,15초 전으로 영상 되돌아간다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Button UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Button 출력 확인,확성기 형태의 Volume Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Button hover 시 Sound Bar 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Button에 mouse hover,Sound bar 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Button Hover 시 text box 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Button Hover,"""Mute"" text box 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Button 선택 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Button 선택,음소거된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Button 선택 시 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Button 선택,Volume Mute Button Toggle 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Mute Button UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Volume Button 선택",Volume Mute Button 출력 확인,빗금 처리된 확성기 형태의 Mute Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Mute Button Hover 시 text box 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Volume Button 선택",Volume Mute Button Hover,"""Unmute"" text box 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Mute Button Hover 시 Control Bar 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Volume Button 선택",Volume Mute Button Hover,Volume Control Bar 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Mute Button 선택 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Volume Button 선택",Volume Mute Button 선택,음소거 해제된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Mute Button 선택 시 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Volume Button 선택",Volume Mute Button 선택,Volume Button Toggle 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Volume Control Bar 조절 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Volume Control Bar 조작 확인,조절한 값의 소리 출력 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Next Episode Button 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Next Episode Button 출력된다,Next Episode Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Next Episode Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 다음 Episode 편성된 상태",Next Episode Button 선택,다음 Episode 로 이동한다
+WEB,Player Page,Video Playing,Player UI,#NAME?,재생 시간 영역 UI 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",플레이 화면 Hover,"nn:nn (현재 재생 시간) / nn:nn (총 영상 시간)
+ text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Episode List Button 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Full screen 인 상태",Episode List Button 출력 확인,Window 형태의 Episode List Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Episode List Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. Full screen 인 상태",Episode List Button 선택,Episode list POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Setting Button 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Setting Button 출력 확인,톱니 바퀴 형태의 Setting Button 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Setting Button 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",Setting Button 선택,Setting POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,title text 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택",title text 출력 확인,"""Setting"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Subtitle text 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택",Subtitle text 출력 확인,"""Subtitle"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Subtitle 선택 창 출력 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택",Subtitle 선택,Subtitle 선택 창 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,playback speed text 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택",playback speed text 확인,"""Playback Speed"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Playback Speed Selection POP UP 출력 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택",Playback Speed 선택,Playback Speed Selection POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Default Setting 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Default Setting 적용 확인,현재 적용 중인 항목 강조되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 UI 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",항목 선택,해당 항목 강조되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 동작 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",항목 선택,해당 항목 Check icon 표시되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 POP UP 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",항목 선택,Subtitle Setting POP UP 사라지지 않는다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",항목 선택,해당 Language Subtitle 적용된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,English 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",English 항목 출력 확인,"""English"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Portuguese 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Portuguese 항목 출력 확인,"""Portuguese"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Espanol 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Espanol 항목 출력 확인,"""Espanol"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Chinese 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Chinese 항목 출력 확인,"""简体中文"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Vietnamese 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Vietnamese 항목 출력 확인,"""Tiêng Viêt"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Off 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",Off 항목 출력 확인,"""OFF"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Off 항목 영어 출력 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. English 외 언어로 System Language 설정한 상태",Off 항목 출력 확인,"""OFF"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Off 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택",off Button 선택,자막 출력되지 않는다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Default Setting 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",Default Setting 적용 확인,현재 적용 중인 항목 강조되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 UI 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",항목 선택,해당 항목 강조되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 동작 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",항목 선택,해당 항목 Check icon 표시되어 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 선택 시 POP UP 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",항목 선택,Playback Speed Selection POP UP 사라지지 않는다
+WEB,Player Page,Video Playing,Player UI,#NAME?,항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",항목 선택,해당 Playback Speed 적용된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,0.5x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",0.5x 항목 출력 확인,"""0.5x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,0.75x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",0.75x 항목 출력 확인,"""0.75x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,1x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",1x 항목 출력 확인,"""1x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,1.25x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",1.25x 항목 출력 확인,"""1.25x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,1.5x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",1.5x 항목 출력 확인,"""1.5x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,1.75x 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",1.7x 항목 출력 확인,"""1.75x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,2X 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Playback Speed 항목 선택",2X 항목 출력 확인,"""2x"" 항목 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,title text 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",title text 출력 확인,"""Subtitle Settings"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Color 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Color 항목 출력 확인,Text Color 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Color 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Color 항목 출력 확인,"""Text Color"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Color 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Color 항목 선택,Text Color POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Opacity 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Opacity 항목 출력 확인,Text Opacity 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Opacity 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Opacity 항목 출력 확인,"""Text Opacity"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Opacity 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Opacity 항목 선택,Text Opacity POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Edge Style 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Edge Style 항목 출력 확인,Text Edge Style 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Edge Style 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Edge Style 항목 출력 확인,"""Text Edge Style"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Text Edge Style 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Text Edge Style 항목 선택,Text Edge Style POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Color 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Color 항목 출력 확인,Background Color 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Color 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Color 항목 출력 확인,"""Background Color"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Color 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Color 항목 선택,Background Color POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Opacity 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Opacity 항목 출력 확인,Background Opacity 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Opacity 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Opacity 항목 출력 확인,"""Background Opacity"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Background Opacity 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Background Opacity 항목 선택,Background Opacity POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Color 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Color 항목 출력 확인,Window Color 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Color 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Color 항목 출력 확인,"""Window Color"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Color 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Color 항목 선택,Window Color POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Opacity 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Opacity 항목 출력 확인,Window Opacity 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Opacity 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Opacity 항목 출력 확인,"""Window Opacity"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Window Opacity 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Window Opacity 항목 선택,Window Opacity POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Size 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Size 항목 출력 확인,Font Size 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Size 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Size 항목 출력 확인,"""Font Size"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Size 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Size 항목 선택,Font Size POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Family 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Family 항목 출력 확인,Font Family 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Family 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Family 항목 출력 확인,"""Font Family"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Font Family 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Font Family 항목 선택,Font Family POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Reset 항목 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Reset 항목 출력 확인,Reset 항목 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Reset 항목 stringset 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Reset 항목 출력 확인,"""Reset"" text 출력된다"
+WEB,Player Page,Video Playing,Player UI,#NAME?,Reset 항목 기능 확인,"1. Channel Page 진입
+2. Player Screen 진입
+3. Setting icon 선택
+4. Subtitles 항목 선택
+5. Settings text Button 선택",Reset 항목 선택,User Set Value 초기화 동작한다
+WEB,Player Page,Video Playing,Player UI,#NAME?,전체 화면 UI확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",전체 화면 icon 확인,전체화면 icon 정상 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,전체 화면 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태",전체 화면 icon 선택,전체 화면으로 전환된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,전체 화면 상태에서 더클 클릭 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 전체 화면 적용된 상태",화면 스크린 더블 선택,전체 화면 종료 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,전체 화면 상태에서 ESC 입력 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 전체 화면 적용된 상태",ESC 키 입력,전체 화면 종료 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,전체 화면 상태에서 icon 선택 시 기능 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 재생 중인 상태
+6. 전체 화면 적용된 상태",전체 화면 icon 선택,전체 화면 종료 된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Next Episode POP UP 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 다음 에피소드가 편성되어 있는 상태",영상 종료 20초 전으로 이동,Next Episode POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Video Detail POP UP 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 영상 Pause",5초간 대기,Video Detail POP UP 출력된다
+WEB,Player Page,Video Playing,Player UI,#NAME?,Recommended POP UP 출력 확인,"1. KOCOWA 결제 계정 Sign in
+2. DRAMA Menu 진입
+3. poster image 선택
+4. Episode content 선택
+5. 다음 에피소드 편성되어 있지 않은 상태",영상 끝까지 재생,Recommended POP UP 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Default Setting 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Default Setting 적용 확인,최상단 영역 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Continue Watching 진입 시 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택
+3. 열람 이력이 있는 상태",Webcomics Viewer Screen 진입,Auto Moving toast POP UP 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Continue Watching 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택
+3. 열람 이력이 있는 상태",Webcomics Viewer Screen 진입,User Last View Point Scroll 이동한다
+WEB,Webcomics Viewer Screen,,,#NAME?,Top Moving icon 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Top Moving icon 출력된다,Upward Arrow 형태의 Top Moving icon 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Top Moving icon Hover 시 UI 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Top Moving icon Hover,Top Moving icon 흰색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Top Moving icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Top Moving icon 선택,최상단 영역으로 Scroll Up 동작한다
+WEB,Webcomics Viewer Screen,,,#NAME?,Bottom Moving icon 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Bottom Moving icon 출력된다,Downward Arrow 형태의 Bottom Moving icon 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Bottom Moving icon Hover 시 UI 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Bottom Moving icon Hover,Bottom Moving icon 흰색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,,,#NAME?,Bottom Moving icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics content poster image 선택",Bottom Moving icon 선택,최하단 영역으로 Scroll Down 동작한다
+WEB,Webcomics Viewer Screen,Prevent illegal Copying,,#NAME?,Screen Capture 방지 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Mouse 우클릭 입력,동작하지 않는다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Back icon 출력 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Back icon 출력 확인,좌측 화살표 형태의 Back icon 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Back icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Back icon 선택,이전 화면으로 이동한다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,content Episode Numbering 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",content Episode Numbering 출력 확인,content Episode Numbering 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Episode Numbering 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Episode Numbering 출력 확인,Episode Numbering 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,content Series Name 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",content Series Name 출력 확인,content Series Name 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Previous Button 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Previous Button 출력 확인,Previous Button 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Dimmed Previous Button 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. First content Episode 출력 상태",Dimmed Previous Button 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Previous Button 선택 시 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. Last content Episode 출력 상태",Previous Button 선택,이전 Webcomics content 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Previous Button 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. Last content Episode 출력 상태",Previous Button 선택,Webcomics Viewer Screen 진입된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Division Line 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Division Line 출력 확인,회색 구분선 형태의 Division Line 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Next Button 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태",Next Button 출력 확인,Next Button 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Dimmed Next Button 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. Last content Episode 출력 상태",Dimmed Next Button 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Next Button 선택 시 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. First content Episode 출력 상태",Next Button 선택,다음 Webcomics content 출력된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,Next Button 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. Top Function Bar 출력 상태
+4. First content Episode 출력 상태",Next Button 선택,Webcomics Viewer Screen 진입된다
+WEB,Webcomics Viewer Screen,Top Function Bar,,#NAME?,미결제 시 Next Button 기능 확인,"1. 미결제 계정 Sign in
+2. Series Detailed Page 진입
+3. Webcomics Viewer Screen 진입
+4. Top Function Bar 출력 상태
+5. Next content 유료 회차인 상태",Next Button 선택,Non-subscription POP UP 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Left Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Left Navigation icon 출력 확인,좌측 화살표 형태의 Left Navigation icon 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Dimmed Left Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Left Navigation icon 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Left Navigation icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Left Navigation icon 선택,좌측으로 Rolling 동작한다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Left Navigation icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. 편성된 Episode content 10개 이하인 경우",Left Navigation icon 출력 확인,Left Navigation icon 출력되지 않는다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Right Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Right Navigation icon 출력 확인,우측 화살표 형태의 Right Navigation icon 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Dimmed Right Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Right Navigation icon 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Right Navigation icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Right Navigation icon 선택,우측으로 Rolling 동작한다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Right Navigation icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. 편성된 Episode content 10개 이하인 경우",Right Navigation icon 출력 확인,Right Navigation icon 출력되지 않는다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,poster image 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image 출력 확인,poster image 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,열람 이력 있을 시 poster image UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image 출력 확인,poster image Dimmed 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,열람 중인 poster image UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image 출력 확인,열람 상태인 content poster image 흰색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,poster image hover 시 UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image hover,poster image Darken 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,poster image hover 시 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image hover,poster image Largen 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,poster image 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image 선택,해당 Webcomics Viewer Screen 진입된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,미결제 시 유료 content poster image 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",poster image 선택,Non-subscription POP UP 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Free icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Free icon 출력 확인,Free icon 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Free icon UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Free icon 출력 확인,Free icon 초록색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,Free icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",Free icon 출력 확인,Free icon 출력되지 않는다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,New icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",New icon 출력 확인,New icon 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,New icon UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",New icon 출력 확인,New icon 보라색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Bottom Episode List Area,,#NAME?,New icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입",New icon 출력 확인,New icon 출력되지 않는다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Left Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Left Navigation icon 출력 확인,좌측 화살표 형태의 Left Navigation icon 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Dimmed Left Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Left Navigation icon 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Left Navigation icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Left Navigation icon 선택,좌측으로 Rolling 동작한다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Right Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Right Navigation icon 출력 확인,우측 화살표 형태의 Right Navigation icon 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Dimmed Right Navigation icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Right Navigation icon 선택,동작하지 않는다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Right Navigation icon 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Right Navigation icon 선택,우측으로 Rolling 동작한다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,poster image 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image 출력 확인,poster image 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,열람 이력 있을 시 poster image UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image 출력 확인,poster image Dimmed 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,열람 중인 poster image UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image 출력 확인,열람 상태인 content poster image 흰색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,poster image hover 시 UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image hover,poster image Darken 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,poster image hover 시 동작 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image hover,poster image Largen 처리되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,poster image 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image 선택,해당 Webcomics Viewer Screen 진입된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,미결제 시 유료 content poster image 기능 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",poster image 선택,Non-subscription POP UP 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Free icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Free icon 출력 확인,Free icon 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Free icon UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Free icon 출력 확인,Free icon 초록색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,Free icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",Free icon 출력 확인,Free icon 출력되지 않는다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,New icon 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",New icon 출력 확인,New icon 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,New icon UI 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",New icon 출력 확인,New icon 보라색으로 강조되어 출력된다
+WEB,Webcomics Viewer Screen,Top Episode List POP UP,,#NAME?,New icon 출력 여부 확인,"1. Series Detailed Page 진입
+2. Webcomics Viewer Screen 진입
+3. List Button 선택
+4. Top Function Bar 출력 상태",New icon 출력 확인,New icon 출력되지 않는다
+WEB,Chromecast,Casting Action,,#NAME?,Player Screen 진입 시 동작 확인,"1. 결제 계정 Sign in
+2. Series Detailed Page 진입
+3. Episode content 선택
+4. content Casting
+5. Chromecast 연결되어 있는 상태",Casting 대상 Device Monitor 확인,해당 Episode content Casting Player Screen 진입된다
+WEB,Chromecast,Casting Player Screen,,#NAME?,KOCOWA logo image 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting",KOCOWA logo image 출력 확인,KOCOWA logo image 출력된다
+WEB,Chromecast,Casting Player Screen,,#NAME?,Player UI 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting",Player UI 출력 확인,Player UI 출력된다
+WEB,Chromecast,Casting Player Screen,,#NAME?,재생 구간 이동 시 동작 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting",재생 구간 이동,Player UI 출력된다
+WEB,Chromecast,Casting Player Screen,,#NAME?,content 재생 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting",Casting 대상 Device Monitor 확인,해당 Episode content 재생된다
+WEB,Chromecast,Casting Player Screen,,#NAME?,Subtitle 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. 자막 편성된 상태",Subtitle 출력 확인,User Set Subtitle 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,대기 시 동작 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",5초간 대기,Player UI 사라진다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,thumbnail image 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",thumbnail image 출력 확인,Episode content thumbnail image 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Series content Name 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Series content Name 출력 확인,Series content Name 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Episdoe content Name 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Episdoe content Name 출력 확인,Episdoe content Name 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Episdoe content Name stringeset 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Episdoe content Name 출력 확인,"""Episode {NN}"" text 출력된다"
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Loading 시 UI 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",재생 구간 이동,Loading Progress Bar 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Loading 완료 시 동작 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Loading 완료,Loading Progress Bar 사라진다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Progress Bar 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Progress Bar 출력 확인,Progress Bar 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Current Time 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Current Time 출력 확인,"""{HH}:{MM}:{SS}"" Current Time 출력된다"
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Current Time 동작 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Current Time 출력 확인,현재 재생 구간 출력된다
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Total Time 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Total Time 출력 확인,"""{HH}:{MM}:{SS}"" Total Time 출력된다"
+WEB,Chromecast,Casting Player Screen,Player UI,#NAME?,Total Time 동작 확인,"1. 결제 계정 Sign in
+2. Casting icon 선택
+3. Chromecast 연결
+4. content Mirror Casting
+5. Player UI 출력 상태",Total Time 출력 확인,총 재생 시간 출력된다
